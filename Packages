@@ -1,0 +1,688 @@
+Package: com.0xkuj.ccadsbegone.roothide
+Name: CCAdsBeGone (roothide)
+Depends: com.opa334.ccsupport, com.ps.letmeblock (>= 1.3.0)
+Description: CC Toggle to block ads on demand!
+Maintainer: 0xkuj
+Author: 0xkuj
+Section: Tweaks
+Conflicts: com.0xkuj.ccadsbegone
+Architecture: iphoneos-arm64e
+Version: 1.5
+Installed-Size: 6096
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.0xkuj.ccadsbegone.roothide_1.5_iphoneos-arm64e.deb
+Size: 2675324
+MD5sum: a14397b13d76ccd20f1a47b0768d7050
+SHA1: 224f2a09b344d0e9f5b61b76bddfa8692cd2917e
+SHA256: 857192abfd59d31752718ff1863b48c358fd3ecc3c5726deeb747d0355c8051b
+
+Package: com.anthopak.appaze3
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Author: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1802
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 15.0)
+Conflicts: com.anthopak.appaze, com.anthopak.appaze2
+Name: Appaze 3
+Description: Customize up to 30 settings for each app, in a clean and friendly UI, easily accessible!
+Icon: https://img.chariz.cloud/icon/appaze3/icon@3x.png
+Depiction: https://chariz.com/buy/appaze3
+Tag: cydia::commercial, compatible_min::ios15.0
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.anthopak.appaze3_1.0.1_iphoneos-arm64e.deb
+Size: 872080
+MD5sum: fb7c31d8af97e8f3ceab4245cf0dd2e6
+SHA1: b87bddb162007dabe0881d46bd61b79c4db9e583
+SHA256: 2fbeeba06955ab4996a08d1836ee82a92c77628a65e618132cf57dec89eb22cc
+
+Package: com.baiy.switchtheme
+Name: SwitchTheme-皮卡丘
+Description: 这是一款全新的开关主题，用皮卡丘的元素来装饰你的开关，让你的开关变得可爱起来
+Maintainer: baiy（qq：961666883））
+Author: 白衣
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 336
+Filename: debs/com.baiy.switchtheme_1.0.0_iphoneos-arm64.deb
+Size: 50124
+MD5sum: 3a73c12341adf5bac2407fdb929de877
+SHA1: a1f76951ab3da4651626bb1064d18936c9f1c00f
+SHA256: 54d1510ed84fd30a70f5fa6cab849f7069c025afcbb3d93fead356823341bcb1
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64
+Version: 0.0.13
+Installed-Size: 704
+Filename: debs/com.be-huge.insulation_0.0.13_iphoneos-arm64.deb
+Size: 107012
+MD5sum: a32d55fe950bb4eb9b76b0833c1b480e
+SHA1: 72459230821a66c81c325cfc2e32a62c931983fb
+SHA256: 2045b5643539eb78c3979b8259aa1cfc3c5aa64baae26b10bf47bd6c2196187e
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 0.0.13
+Installed-Size: 704
+Filename: debs/com.be-huge.insulation_0.0.13_iphoneos-arm64e.deb
+Size: 105034
+MD5sum: 16e1efd1cf4924dca54f073c5ab755dc
+SHA1: a4b108efb1370bce9413c19bf661a27925b56606
+SHA256: 312b9a68e186a855ff946f6fde0e09f7a7eaa9543df3a5f23e0b45af9f3aac5c
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64
+Version: 0.0.18-1
+Installed-Size: 704
+Filename: debs/com.be-huge.insulation_0.0.18-1_iphoneos-arm64.deb
+Size: 108172
+MD5sum: f355b26a4100ab14bbc4e05af65aaada
+SHA1: b3abc7ff856527f0f42607c5b49ad823c876b302
+SHA256: 0a25e296cd10e0fb65534eb9394a7622dc16bf48ab36034ee59180c9ffd23962
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 0.0.18-1
+Installed-Size: 704
+Filename: debs/com.be-huge.insulation_0.0.18-1_iphoneos-arm64e.deb
+Size: 106436
+MD5sum: e55fb5458f69a8ce26665fb02a713ebe
+SHA1: b7bf184c3f7d487acf00322959a037f4974315d5
+SHA256: a08bceef857b912bb1721cc72b3d910fc6526aae7da3a65b4aa5dd1765cda572
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64
+Version: 0.0.18-3
+Installed-Size: 704
+Filename: debs/com.be-huge.insulation_0.0.18-3_iphoneos-arm64.deb
+Size: 110860
+MD5sum: 0188355e7f4eb56eb45294996c93d948
+SHA1: 3442e9e93795b5068ecd491cea8a5f91eb26664d
+SHA256: 367872e34d1a63842471bd118eb2f142d1a3e72a32baf8b5b8e19be856292348
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 0.0.18-3
+Installed-Size: 704
+Filename: debs/com.be-huge.insulation_0.0.18-3_iphoneos-arm64e.deb
+Size: 108884
+MD5sum: af7cd03b489c6ada134335b7e09ebc62
+SHA1: e2c02c610c80f834a5811d8a01da7fa9d8f5ba4e
+SHA256: a45d7aae9f3cd00ee9c991b92f1f979e3cd144ce24accaaeed9109361c666669
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.35
+Installed-Size: 628
+Filename: debs/com.be-huge.insulation_0.1.35_iphoneos-arm64.deb
+Size: 51480
+MD5sum: e721b360688cc5d8ef34646257da3899
+SHA1: 64e90e973b2f048281e761d3f119705f47ffe2bc
+SHA256: d7af0ca4cbafd4105012a15063a752938416cd4120a3c0985b9d6ffdc741cdbd
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.35
+Installed-Size: 612
+Filename: debs/com.be-huge.insulation_0.1.35_iphoneos-arm64e.deb
+Size: 49128
+MD5sum: b35c0de0714d929cffc05b0d48652420
+SHA1: 0b0649cdecb51b01df7c6a7510b2ca753eb20ef6
+SHA256: e6c993bf9b73b79e7223eda01463e246e182118ce7a2c10771537faad7b7fd1d
+
+Package: com.brend0n.notransitcardversionlimit
+Name: NoTransitCardVersionLimit
+Depends: mobilesubstrate
+Description: Spoof OS version in Wallet App!
+Maintainer: Brend0n <brendonjkding@126.com>
+Author: Brend0n <brendonjkding@126.com>
+Section: Tweaks
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.notransitcardversionlimit
+SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.notransitcardversionlimit/depiction.json
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.brend0n.notransitcardversionlimit_0.0.2_iphoneos-arm64e.deb
+Size: 9020
+MD5sum: 892445d3a04ed37d1c0a14c185720770
+SHA1: 7f8782b3e81f539317e2ff718785a1fb7dd05ec2
+SHA256: ed79b091790349088dfe2575791892c6d0646cbb825a61ef7d156682a15db88e
+
+Package: com.doimty.fixrepairsystempower
+Section: Tweaks
+Maintainer: doimty
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Depends: mobilesubstrate
+Description: CPU Battery Saver Battery Connected State Not Change Remove Monitored Regions Don't Use Background Location Services No Update WiFi State Remove Pretending To Search In Telephony Manager No Has Results From Wifi Scan Disable Wifi Charger Queue Has Cellular Telephony Private Location Apps Not Using Location With Details Remove Animations Remove Animations Fake Service If Unnecessary Don't Scan For Updates Remove Check Time Zone Time Zone (Fixed) AdBlock - Block Some iAds No Automatic Sync Hidden iAds Device
+Author: doimty
+Name: Fix Repair System Power
+Sponsor: doimty
+Filename: debs/com.doimty.fixrepairsystempower_0.0.1_iphoneos-arm64e.deb
+Size: 4592
+MD5sum: f419b5a303b942fcc09042d2b5bf6af0
+SHA1: 47e2067c8d3fb54b232f5c52a19c2d0f6cc0672e
+SHA256: 70ff481529a058f417a516f984aca204ddb37afefd9778c4912edfba1dbf34b4
+
+Package: com.doimty.mountfont
+Name: Filza Font Mount Script
+Section: System
+Maintainer: doimty
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Description: Mount Font files from Filza
+Author: doimty
+Filename: debs/com.doimty.mountfont_1.0.4_iphoneos-arm64.deb
+Size: 5016
+MD5sum: e7c93ad400f8ed50cd613c3241d0ced7
+SHA1: 3f269774d41411d59b4290ccdfb63392dbcf665b
+SHA256: e65a9068786b592e6055ec7e7d043be9553262ce5070ae5132c09f899dd365be
+
+Package: com.doimty.mountfont
+Name: Filza Font Mount Script
+Section: System
+Maintainer: doimty
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Description: Mount Font files from Filza
+Author: doimty
+Filename: debs/com.doimty.mountfont_1.0.4_iphoneos-arm64e.deb
+Size: 5020
+MD5sum: ad8c7e779ae5d573f1444a7171b8fcf4
+SHA1: 6f9e870202eb73843786497b1c74d59e158c5200
+SHA256: a0587ca5b7b122054bb6f73d2bc785aa6dcac52cccbc9c13a857ddcd490ef72c
+
+Package: com.eliassfeir.smartnetwork
+Section: Tweaks
+Installed-Size: 1272
+Maintainer: elias
+Architecture: iphoneos-arm64
+Version: 1.1
+Depends: mobilesubstrate, com.spark.libsparkapplist, ws.hbang.common
+Conflicts: com.eliassfeir.smartnetwork
+Description: The most complete tweak to customize WiFi / mobile data and Bluetooth
+Name: SmartNetwork iOS 15-16
+Author: elias
+Filename: debs/com.eliassfeir.smartnetwork_1.1_iphoneos-arm64.deb
+Size: 160004
+MD5sum: d517800e9d1596d063ca36508d00b44e
+SHA1: 9165675ddfbd27abd95b6d3ea2342ed6510b172a
+SHA256: 50a53190ff8ec8f6a6d81e2811f616925f9b7b8005e6362d88c1285905c0fdf7
+
+Package: com.idevicelover.smartbatteryios15
+Section: Tweaks
+Maintainer: EliasSfeir
+Architecture: iphoneos-arm64
+Version: 1.6
+Depends: ws.hbang.common
+Conflicts: com.idevicelover.smartbattery2
+Description: An awesome Mobile Substrate tweak!
+Name: SmartBattery iOS 15 - 16
+Author: EliasSfeir
+Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
+Filename: debs/com.idevicelover.smartbatteryios15_1.6_iphoneos-arm64.deb
+Size: 687964
+MD5sum: 2d74272601d6bf7beea268400510c0e4
+SHA1: 6f0deb8e8170196bf46de5e7fef6bc853ec96fae
+SHA256: a787ff8d80ecc389f12bc5d4507523115513195d30631833507bba33cc7b9214
+
+Package: com.jontelang.bigshotsnapper3plugin
+Section: Tweaks
+Installed-Size: 536
+Maintainer: Jonathan Winger-lang
+Architecture: iphoneos-arm64
+Version: 1.1
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Conflicts: com.jontelang.snapper
+Description: BigShot for iOS 15/16 (and Snapper 3)
+Name: BigShot for Snapper 3 and CCSupport
+Author: Jonathan Winger-lang
+Filename: debs/com.jontelang.bigshotsnapper3plugin_1.1_iphoneos-arm64.deb
+Size: 19372
+MD5sum: 769a360523a248df91c1d19a6ef43a18
+SHA1: d55351fe468f5f71d935e9368be4729ee055d37d
+SHA256: 4799519ce3fd993dceb07938369b2e88d264a9b4c92c23e6c470b88ee2eb193d
+
+Package: com.jontelang.instalauncher2
+Section: Tweaks
+Installed-Size: 1188
+Maintainer: Jonathan Winger Lang <jontelang@gmail.com>
+Architecture: iphoneos-arm64
+Version: 1.11.0
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.jontelang.instalauncher2.beta
+Description: Launch ANY app instantly
+Author: Jonathan Winger Lang <jontelang@gmail.com>
+Name: InstaLauncher 2
+Icon: file:///Library/PreferenceBundles/instalauncher2preferences.bundle/icons/preferences-icon@2x.png
+Filename: debs/com.jontelang.instalauncher2_1.11.0_iphoneos-arm64.deb
+Size: 203864
+MD5sum: 6125599e70894f7456146d17dc670207
+SHA1: 0d1b7410045016338629321aef9242f6876b5ba0
+SHA256: 6a493eff926f96c410168d0b47a392d80f2252f8e704050a28d1c2fcfde177e7
+
+Package: com.lclrc.hammerit
+Section: Tweaks
+Installed-Size: 3808
+Maintainer: lclrc(SquidForce)
+Architecture: iphoneos-arm64e
+Version: 1.7.1
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Description: Control your text or translate as you wish.
+Name: Hammer It
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
+Size: 982916
+MD5sum: a9bc610a4ad7d62564ad990048859d47
+SHA1: 3d1fd1ddcd261cfe3a9fc729abc78f6e0789a647
+SHA256: b7855ec8fadfaa59cca9ba3abde22f8d3d646586c5ce455be9317e8922e982c9
+
+Package: com.max.twistnturn
+Name: TwistNTurn
+Description: Smart Screen Rotation Suggestions
+Maintainer: Maxim Shnirman
+Author: Maxim Shnirman
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.3
+Installed-Size: 1016
+Filename: debs/com.max.twistnturn_1.3_iphoneos-arm64.deb
+Size: 512500
+MD5sum: 1c9b8598e42cb661ecffa22bc10c7ff8
+SHA1: 725582403f4a6df0addd6d1f82f82a3c0666aa27
+SHA256: cff97f0e97f425c1b4609a54b501e537a50476239f95f73430f0e0b2f93afc3b
+
+Package: com.michael.wechatjailbreakhook
+Name: WeChatJailbreakHook
+Depends: firmware (>= 11.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Description: Disable WeChat Jailbreak Detection.
+Maintainer: Halo_Michael <yc992147156@me.com>
+Author: Halo_Michael <yc992147156@me.com>
+Section: Tweaks
+Version: 0.1-3
+Installed-Size: 136
+Filename: debs/com.michael.wechatjailbreakhook_0.1-3_iphoneos-arm64e.deb
+Size: 2792
+MD5sum: 36063cd822126adf3dbdde4148a62f28
+SHA1: 10db444f4f0eb761c4e33201efd16988ec7728ac
+SHA256: 2262fc89ad04fc60d477b6fb9ddbe7dee934413bab062f5597fed7c7b2286e2d
+
+Package: com.ps.letmeblock
+Name: LetMeBlock
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), com.opa334.libsandy
+Description: Make mDNSResponder care more about /etc/hosts
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Installed-Size: 140
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ps.letmeblock_1.3.0_iphoneos-arm64e.deb
+Size: 7552
+MD5sum: 0b8ccf42f0c13a4045122abe857540b3
+SHA1: 1e5eda98e9fe66413f36f4d9a0bb87d1fafd7f51
+SHA256: f24517514bc8961e226b12fb3e341cdd33201f687d3d6da21448e73e23b9cc58
+
+Package: com.ps.smoothcursorios13
+Name: SmoothCursor (iOS 13+)
+Depends: mobilesubstrate, firmware (>= 6.0)
+Conflicts: org.thebigboss.smoothcursor
+Description: Office 2013-styled cursor animation.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ps.smoothcursorios13_0.0.1_iphoneos-arm64e.deb
+Size: 4056
+MD5sum: 7c914db15a6e0d39f2f02cad3d6aa50e
+SHA1: 89a3f51cbf96cd219b6b17668c03c64c1193e327
+SHA256: 51190b6cb2b0d20eb0ce0d8bf6f7745337546b2341bd148ee5449bde7b5f2633
+
+Package: com.pwn20wnd.systemmemoryresetfix
+Section: System
+Installed-Size: 104
+Maintainer: Pwn20wnd
+Architecture: iphoneos-arm64
+Version: 2.0
+Depends: mobilesubstrate
+Description: Prevent overnight userspace reboots triggered by maintenanced daemon when iCloud backup occurs. This is a must have for users with nightly reboots.
+Name: System Memory Reset Fix
+Author: Pwn20wnd
+Filename: debs/com.pwn20wnd.systemmemoryresetfix_2.0_iphoneos-arm64.deb
+Size: 2848
+MD5sum: 48550038ccc705c5df8b853bb400e6d0
+SHA1: 832471231a5f40c0399b2c636799eeaef0963b0b
+SHA256: 9834b0761e1f61db432552ab470fedae34cadceba0cc57121dd548ba1cf94442
+
+Package: com.sop.settingsrevamp
+Name: SettingsRevamp
+Description: Customize the ios settings page
+Maintainer: SOPPPra
+Author: SOPPPra
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader
+Icon: https://i.postimg.cc/ry1s499R/icon-3x.png
+Depiction: https://sopppra.mooo.com/depictions/web/com.sop.settingsrevamp.html
+Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.settingsrevamp.json
+Architecture: iphoneos-arm64e
+Version: 2.1.1
+Installed-Size: 540
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sop.settingsrevamp_2.1.1_iphoneos-arm64e.deb
+Size: 100884
+MD5sum: fba0165bcd9d9d2aef467407d58cfe3a
+SHA1: 3148b20745fcc15237cb55547768796e77bd4c88
+SHA256: 77ff51d6d3ac82c9d19115e8ae921aa791417927e7fdf9315a174600bb93aa28
+
+Package: com.sunshinesong.volume-manager
+Name: VolumeManager
+Description: 音量管理，就是这么简单。包含功能：混响、多元化音量。
+Maintainer: sunshinesong
+Author: sunshinesong
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Installed-Size: 1104
+Filename: debs/com.sunshinesong.volume-manager_1.0.3_iphoneos-arm64.deb
+Size: 140084
+MD5sum: e8326a7fa4b73c912c54ba599b5f5223
+SHA1: a5cc296d119681d568550e86691cac69ee0c8bdc
+SHA256: 1275df624d490535085c4de85780029597a69248f1e2738f86b6dc64b00b7aff
+
+Package: com.susu.ios18batteryestimate
+Name: iOS18BatteryEstimate
+Description: 在锁屏界面显示预计充电时间
+Maintainer: 苏苏
+Author: 苏苏
+Icon: https://www.susubaby.top/images/batteryestimate.png
+Sileodepiction: https://www.susubaby.top/json/iOS18BatteryEstimate/js.json
+Section: 调整
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5) 
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Installed-Size: 352
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.susu.ios18batteryestimate_1.1.5_iphoneos-arm64e.deb
+Size: 51364
+MD5sum: a29e77f25adda7b4f9561211ec811175
+SHA1: 3c81bf88a09173ce1df309f355075078adf687cf
+SHA256: b7f8b65cab487c2f6dafcdd2b0e9414886658a50a8673eb5246163cd958b4002
+
+Package: com.susu.reachplayer
+Name: ReachPlayer音乐专辑
+Description: ReachPlayer便捷访问音乐专辑
+Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
+Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
+Maintainer: 苏苏
+Author: 苏苏
+Section: 插件
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 5.0.0
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.susu.reachplayer_5.0.0_iphoneos-arm64e.deb
+Size: 1267188
+MD5sum: 85fd101a415581442175a90465b081c1
+SHA1: dcacdf55a370288ccc3321cde606a828acb2c6d9
+SHA256: 823b660a7802b27713b0c1eb9d77363ecef0ee598c1105bfafdcb9ca97054ae2
+
+Package: com.thermal.hook
+Section: Tweaks
+Maintainer: doimty
+Architecture: iphoneos-arm64e
+Version: 1.0.1+debug
+Depends: mobilesubstrate
+Name: Thermal Hook
+Description: An awesome MobileSubstrate tweak!
+Author: doimty & be-huge
+Filename: debs/com.thermal.hook_1.0.1+debug_iphoneos-arm64e.deb
+Size: 249928
+MD5sum: 90979fa9b0632642ea44197656b4c4aa
+SHA1: 7b6cc2423aeeecf3ded08831d32d219192263bf5
+SHA256: 3832b50328719159c474f931e02e9a4135662db9deef4bf9c2dd487ea3ee7248
+
+Package: com.wechat.fzye
+Name: WeChat
+Version: 1.5.9-6
+Description: 微信插件
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Jan
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: Jan
+Icon:
+Filename: debs/com.wechat.fzye_1.5.9-6_iphoneos-arm.deb
+Size: 1360104
+MD5sum: d3b2a273f2ef9a42631fcf013f5ef247
+SHA1: cc884c7cb87ee4c4307ac0ebeac0a8c8548b11f9
+SHA256: 86128baced40659b42d858e3f26f97bdbd0de2a4d1d70c18deb5faf6d29a3d32
+
+Package: com.yourepo.ibreak.dolbysoundeffect
+Section: System
+Maintainer: iBreak <ibreak2019@qq.com>
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Depends: mobilesubstrate, firmware (>= 13.0)
+Description: iOS All Device Dolby Sound Effect & And Sound Quality Optimization
+Name: Dolby Sound Effect
+Author: iBreak <ibreak2019@qq.com>
+Filename: debs/com.yourepo.ibreak.dolbysoundeffect_1.0.1_iphoneos-arm64.deb
+Size: 8836
+MD5sum: 1b0eeeff957e3138d86a04da644780bd
+SHA1: fdea16af9e13b7d2dd1a5c401673ad003221c5f8
+SHA256: 6443f23d4a2517bf8098660618395a8cc4b1983f8ecfec300f3a5ac09d6defeb
+
+Author: zqbb
+Architecture: iphoneos-arm64e
+Description: 给图标添加一层阴影图片!
+Maintainer: zqbb
+Version: 1.1
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: Hello Shadow
+Section: Tweaks
+SileoDepiction: https://rootless.002599.xyz/web/com.zqbb.iconshadow
+Installed-Size: 96
+Package: com.zqbb.iconshadow
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.zqbb.iconshadow_1.1_iphoneos-arm64e.deb
+Size: 10356
+MD5sum: 307326dc94abfba4858214526a0f5139
+SHA1: 4bfc82251fb60f6487d5569c8c73a2901e0722f7
+SHA256: 4cfec2e31a89fc264f6c949f18e20b1554c83877f0861d1d94aacfa78f044326
+
+Package: de.janis.glance
+Section: Tweaks
+Installed-Size: 1213
+Maintainer: Janis <janisbtwtweaks@gmail.com>
+Architecture: iphoneos-arm64
+Version: 1.0
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet, com.opa334.altlist
+Description: See notifications from far away
+Author: Janis <janisbtwtweaks@gmail.com>
+Name: Glance
+Icon: https://img.chariz.cloud/icon/glance/icon@3x.png
+Depiction: https://chariz.com/buy/glance
+Tag: cydia::commercial, compatible_min::ios15.0
+Filename: debs/de.janis.glance_1.0_iphoneos-arm64.deb
+Size: 388864
+MD5sum: 4ed1dc3f310f7a70d921db2e1ccdaccb
+SHA1: 52af1f0a33cae8e24906733da07bfac5a0f0f70a
+SHA256: 620d1a106b5fadc23034bccfd4e15c7c156f88566e335829c4cee7835272c502
+
+Package: jp.uzra.muteplay
+Section: Tweaks
+Installed-Size: 168
+Maintainer: uz.ra
+Architecture: iphoneos-arm64
+Version: 1.0
+Depends: mobilesubstrate
+Description: Mute notifications while playing music
+Name: MutePlay
+Author: uz.ra
+Icon: https://uz-ra.github.io/icons/MutePlay.png
+Filename: debs/jp.uzra.muteplay_1.0_iphoneos-arm64.deb
+Size: 3788
+MD5sum: b3b62fab67f3da4284320c7e8ca1c07f
+SHA1: 2090c6811f58a2900197bac8aeac094db5d6bfc0
+SHA256: eb66c60d38ec40e2027e7e31e9ba001b1017bd12eb175ab69ac63985d1b65841
+
+Package: kodelay.llld
+Section: rootless插件
+Maintainer: llld
+Architecture: iphoneos-arm64
+Version: 1.0
+Depends: mobilesubstrate (>= 0.9.5000)
+Description: Remove the keyboard delay and force the USe of third-party keyboards. The installation will take effect immediately. No preferences.
+Name: KOdelay
+Author: llld
+Filename: debs/kodelay.llld_1.0_iphoneos-arm64.deb
+Size: 3448
+MD5sum: d8c35e7dd0f08efc5c710ef60c53df66
+SHA1: 754cc43c3524ea7fd617e65344f11e1979c3925f
+SHA256: 689d33c8add2b75ffabe638b0f29c735218ba9a4719b9b7e6717063eaa619368
+
+Package: me.nixuge.networkmanager
+Name: NetworkManagerReborn
+Depends: mobilesubstrate, com.opa334.ccsupport
+Description: Force 2G/3G/4G/5G connection from the Control Center
+Maintainer: Nixuge
+Author: NoisyFlake, Nixuge
+Section: Control Center (Modules)
+Architecture: iphoneos-arm64e
+Version: 1.4.3
+Installed-Size: 396
+Depiction: http://cydia.nixuge.me/depiction/web/me.nixuge.networkmanager.html
+SileoDepiction: http://cydia.nixuge.me/depiction/native/me.nixuge.networkmanager.json
+ModernDepiction: http://cydia.nixuge.me/depiction/native/me.nixuge.networkmanager.json
+Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/me.nixuge.networkmanager_1.4.3_iphoneos-arm64e.deb
+Size: 40188
+MD5sum: dc6cacda34569f35010615e86cbb2c9f
+SHA1: 6102b94ecedbf8ff1f30c2d317335fa2b838fc70
+SHA256: 9b248a72cd1094e0b8c5ea7f42faf7ab35e314a91470c4d97f333fc5201cd922
+
+Package: me.tomt000.copylog
+Name: CopyLog
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Description: Clipboard history manager for iOS!
+Maintainer: TomT000
+Author: TomT000
+Section: Tweaks
+Conflicts: com.0xkuj.copylogfix16
+Version: 1.7.1
+Installed-Size: 2240
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/me.tomt000.copylog_1.7.1_iphoneos-arm64e.deb
+Size: 1040936
+MD5sum: ad9784fc5456bccc651fe14cd1855fe7
+SHA1: db6cb5a2e705cc264780053d406a51c21f3924b4
+SHA256: 90db6759e0fcf638e494dd3ced00951870107ca2a256f6f68d7be8dffed2c592
+
+Package: me.tomt000.stageduo
+Name: Dynamic Stage
+Architecture: iphoneos-arm64e
+Description: Stage Manager Reimagined for iPhone
+Maintainer: tomt000
+Author: tomt000
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Version: 1.2
+Installed-Size: 4900
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/me.tomt000.stageduo_1.2_iphoneos-arm64e.deb
+Size: 3077816
+MD5sum: 3b0fd1c0965d2a236b5210141a80d189
+SHA1: 5006ff2ae4d407fc9d3f5ff61768ffd571f77546
+SHA256: 040d9cbbcf39bb091bc02d86a038edbb9ae1de670dd912115f08e65674e8d00d
+
+Package: netskao.lowpowerbannertips
+Version: 1.1-3
+Description: 将低电量弹窗改为横幅提示样式
+Maintainer: Nets
+Installed-Size: 200
+Depends: firmware (>= 15.0), mobilesubstrate
+Author: Netskao
+Name: LowPowerBannerTips
+Architecture: iphoneos-arm64e
+Section: Netskao-Tweaks
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/netskao.lowpowerbannertips_1.1-3_iphoneos-arm64e.deb
+Size: 15524
+MD5sum: 0ff37f0286c5dbab0d201a371968509b
+SHA1: 8ecef2d25f49faf2400dad025eb6257f074581ce
+SHA256: 4f46edd61ede7099b98279f6c0622e1f51686df57a70a70c96c5fccba9e4f699
+

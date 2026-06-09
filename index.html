@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doimty Repo</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif; background: radial-gradient(circle at top, #5b8cff22, transparent 40%), #0f1117; color: #f5f7fb; }
+    main { width: min(420px, calc(100vw - 36px)); padding: 34px 26px; border: 1px solid #ffffff18; border-radius: 28px; background: #171a23cc; box-shadow: 0 22px 80px #0008; backdrop-filter: blur(20px); text-align: center; }
+    img { width: 74px; height: 74px; border-radius: 18px; box-shadow: 0 10px 30px #0006; }
+    h1 { margin: 18px 0 8px; font-size: 30px; letter-spacing: -0.03em; }
+    p { margin: 0 0 24px; color: #aeb7c7; line-height: 1.6; }
+    a.button { display: block; margin: 12px 0; padding: 15px 18px; border-radius: 16px; color: white; text-decoration: none; font-weight: 700; background: linear-gradient(135deg, #4776ff, #8a5cff); }
+    a.button.secondary { background: #252b3a; }
+    code { display: block; margin-top: 18px; padding: 12px; border-radius: 12px; background: #0b0d12; color: #cbd5e1; overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="./CydiaIcon.png" alt="Repo Icon">
+    <h1>Doimty Repo</h1>
+    <p>越狱软件源，支持 Sileo / Saily / Zebra 等 APT 客户端。</p>
+    <a class="button" href="sileo://source/https://doimty.github.io/">添加到 Sileo</a>
+    <a class="button secondary" href="apt-repo://source/https://doimty.github.io/">添加到 Saily</a>
+    <a class="button secondary" href="zbra://sources/add/https://doimty.github.io/">添加到 Zebra</a>
+    <code>https://doimty.github.io/</code>
+  </main>
+</body>
+</html>
