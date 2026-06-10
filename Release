@@ -6,21 +6,21 @@ Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Doimty Repo jailbreak packages
-Date: Wed, 10 Jun 2026 09:28:16 +0800
+Date: Wed, 10 Jun 2026 09:34:22 +0800
 NotAutomatic: No
 
 MD5Sum:
- a76a2d8669017c9769c297a1f6c365fc 27603 Packages
- dc29106577a82d4c340725d62fca0aa6 9332 Packages.gz
- e5311b44957b056e6b0aa412ed3f9912 8440 Packages.xz
- 3cec636a79966284f2f2b3657d3fca35 8392 Packages.lzma
+ 7b6117f113048aeb96816de44d32e0ea 27603 Packages
+ 476f6e3e9c02720a2ef9f299ae8ca82b 9326 Packages.gz
+ 308bda15b34f452bf69b6c954b9d95eb 8432 Packages.xz
+ 97d8cfdf4a71cdb4d8e61c24f06f7ab3 8387 Packages.lzma
 SHA1:
- deb01edb543cfa63b7a221978cb96df73b9c4bd2 27603 Packages
- 620d018db2d4d8d58511ea08537480df50886274 9332 Packages.gz
- 7aa028a3cbf1ba3e61e68a08cc91cbbbc45edfb6 8440 Packages.xz
- 60210cfd614f767233ceeb63d0b2db2327e4c3fd 8392 Packages.lzma
+ cabfe8499f4c2ca3ebd2ab8435982af53b339024 27603 Packages
+ 93d39a0edd70bda72bc593893fa087915b60d0ff 9326 Packages.gz
+ 22fc646cb6a251d4a5ed4bfd86da7b01d7e0cbcb 8432 Packages.xz
+ 6d2b090cf08f24ba79946883f61b18d4b74a132f 8387 Packages.lzma
 SHA256:
- 9afd7814eace2e079acc09a254e71406e45cad45ba8dbcddb34039788100412a 27603 Packages
- 6eaf5a7035ff71b5951997d241baa580e930f10c87f3594d621e8e45b475ef0b 9332 Packages.gz
- f6470ffb39a85a6ec7d69a0f26987bb02a7dc781ef4e7072da07e9ef7efabeb7 8440 Packages.xz
- 16c9c5a713a2e518b0a21ec7e20e7e68921b8e2ede4920b608a4aef58ef5e500 8392 Packages.lzma
+ 8fe6dc4cba9480a2bcb11e0a0f6ff2fb89582e1f633decf36705279e647a4cbe 27603 Packages
+ 8834ad9bcf682f7dcfbcd9f6e2629b1f9d1c35092d77511ac4434e544b4eccf4 9326 Packages.gz
+ 58bbdddb1ca30ff42602677bb74533df7895a751b25da68c0669eeeedac3c038 8432 Packages.xz
+ 44da8b53534ee69069b8abb283bbde8ef475f540f0de3c4b120ab9e32c1115ee 8387 Packages.lzma

@@ -298,7 +298,7 @@ SHA256: c1caca0301f3c716a28ce32fabea13ad057f91182c6e2343eac6c657aed334e7
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
 Author: doimty
-Description: 强制全局 120Hz ProMotion 刷新瘧，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
 Depends: mobilesubstrate
 Maintainer: doimty
 Section: Tweaks
@@ -307,10 +307,10 @@ Architecture: iphoneos-arm64e
 Version: 1.0.6
 Installed-Size: 236
 Filename: debs/com.doimty.promotion_1.0.6_iphoneos-arm64e.deb
-Size: 40360
-MD5sum: 593b4fe0dd3f3303b53a6eacc2c1cc16
-SHA1: 46613d60423478b3dc451154fd936ea75db46879
-SHA256: 124a4ede222fff8c5ea99e84c8b3b556928f6768add5d28ac80fcdb783fbd461
+Size: 40358
+MD5sum: a3eb3bec3986a174e754de07ec236a4e
+SHA1: 4f9223683784462dca5b4ab277f6bb606eecea5c
+SHA256: 1c7deffb5e63f79ee6b25f027d2581c451d4c4e4bdac9ead751d6fac54217db1
 
 Package: com.eliassfeir.smartnetwork
 Section: Tweaks
