@@ -278,6 +278,40 @@ MD5sum: ad8c7e779ae5d573f1444a7171b8fcf4
 SHA1: 6f9e870202eb73843786497b1c74d59e158c5200
 SHA256: a0587ca5b7b122054bb6f73d2bc785aa6dcac52cccbc9c13a857ddcd490ef72c
 
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: ProMotion120：全功能120Hz，支持App进程（Filza等）+ 通知横幅 + 小窗浮窗。
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Installed-Size: 252
+Filename: debs/com.doimty.promotion_1.0.6_iphoneos-arm64.deb
+Size: 26174
+MD5sum: ec7509718cd3e262c207f4b3a9b2d30b
+SHA1: 127a3de6c9014ee46307eb4db29794edea3c2b66
+SHA256: b282395bb29fa94f32d012891822768274bebd9a65abc7ee5026fdd2910f91f6
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: ProMotion120：全功能120Hz，支持App进程（Filza等）+ 通知横幅 + 小窗浮窗。
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Installed-Size: 236
+Filename: debs/com.doimty.promotion_1.0.6_iphoneos-arm64e.deb
+Size: 24560
+MD5sum: 2077b20d8911076f71812c4a1ea3a248
+SHA1: bffb8651fbae863e6c1bc6babdc35b5f6557130e
+SHA256: 5fcfc8b61c9150448eab36fcf1934403092a87588be37782810a6bac1d85c9ee
+
 Package: com.eliassfeir.smartnetwork
 Section: Tweaks
 Installed-Size: 1272
