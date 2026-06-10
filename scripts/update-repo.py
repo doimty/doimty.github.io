@@ -58,7 +58,7 @@ def sz(path: pathlib.Path) -> int:
     return path.stat().st_size
 files = ['Packages', 'Packages.gz', 'Packages.xz', 'Packages.lzma']
 date = time.strftime('%a, %d %b %Y %H:%M:%S +0800', time.gmtime(time.time()+8*3600))
-release = f'''Origin: Doimty Repo\nLabel: Doimty Repo\nSuite: stable\nVersion: 1.0\nCodename: ios\nArchitectures: iphoneos-arm64 iphoneos-arm64e\nComponents: main\nDescription: Doimty Repo jailbreak packages\nDate: {date}\nNotAutomatic: No\n\n'''
+release = f'''Origin: Doimty's Repo\nLabel: Doimty's Repo\nSuite: stable\nVersion: 1.0\nCodename: ios\nArchitectures: iphoneos-arm64 iphoneos-arm64e\nComponents: main\nDescription: Doimty's Repo jailbreak packages\nDate: {date}\nNotAutomatic: No\n\n'''
 for algo, title in [('md5','MD5Sum'),('sha1','SHA1'),('sha256','SHA256')]:
     release += title + ':\n'
     for f in files:

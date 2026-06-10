@@ -1,12 +1,12 @@
-Origin: Doimty Repo
-Label: Doimty Repo
+Origin: Doimty's Repo
+Label: Doimty's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Doimty Repo jailbreak packages
-Date: Wed, 10 Jun 2026 09:34:22 +0800
+Description: Doimty's Repo jailbreak packages
+Date: Wed, 10 Jun 2026 09:54:02 +0800
 NotAutomatic: No
 
 MD5Sum:
