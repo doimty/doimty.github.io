@@ -221,6 +221,38 @@ Author: be-huge & doimty
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64
+Version: 0.1.35.50
+Installed-Size: 628
+Filename: debs/com.be-huge.insulation_0.1.35.50_iphoneos-arm64.deb
+Size: 51370
+MD5sum: bbb8240688f6cde2c6b81c94053e3760
+SHA1: 1708805ffef5c4470330169f6396bce798abd5e7
+SHA256: 63965e544b200bc6d39992cc59244be017e2885041a325e5584fd4ca182f9311
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.35.50
+Installed-Size: 612
+Filename: debs/com.be-huge.insulation_0.1.35.50_iphoneos-arm64e.deb
+Size: 48484
+MD5sum: 6641272588bc87ca1f1054ec91935024
+SHA1: f9691130bc69fd4acef6f35a7de23994133f5797
+SHA256: 2746eea6f05da9444c7dd922109fd025b7c9b6a9564ce6ade255378565691a07
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
 Version: 0.1.35
 Installed-Size: 628
 Filename: debs/com.be-huge.insulation_0.1.35_iphoneos-arm64.deb
