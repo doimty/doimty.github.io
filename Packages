@@ -808,25 +808,20 @@ SHA1: 754cc43c3524ea7fd617e65344f11e1979c3925f
 SHA256: 689d33c8add2b75ffabe638b0f29c735218ba9a4719b9b7e6717063eaa619368
 
 Package: me.nixuge.networkmanager
-Name: NetworkManagerReborn
+Name: NetworkManagerReborn Roothide
 Depends: mobilesubstrate, com.opa334.ccsupport
-Description: Force 2G/3G/4G/5G connection from the Control Center
-Maintainer: Nixuge
-Author: NoisyFlake, Nixuge
+Description: Force 2G/3G/4G/5G connection from the Control Center (Roothide build)
+Maintainer: Nixuge, 灰灰
+Author: NoisyFlake, Nixuge, 灰灰
 Section: Control Center (Modules)
 Architecture: iphoneos-arm64e
 Version: 1.4.3
 Installed-Size: 396
-Depiction: http://cydia.nixuge.me/depiction/web/me.nixuge.networkmanager.html
-SileoDepiction: http://cydia.nixuge.me/depiction/native/me.nixuge.networkmanager.json
-ModernDepiction: http://cydia.nixuge.me/depiction/native/me.nixuge.networkmanager.json
-Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
-Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/me.nixuge.networkmanager_1.4.3_iphoneos-arm64e.deb
-Size: 40188
-MD5sum: dc6cacda34569f35010615e86cbb2c9f
-SHA1: 6102b94ecedbf8ff1f30c2d317335fa2b838fc70
-SHA256: 9b248a72cd1094e0b8c5ea7f42faf7ab35e314a91470c4d97f333fc5201cd922
+Size: 35476
+MD5sum: e73c2e50584a2d89296fccbdcb86d5a4
+SHA1: a5c25c99b3bc40a3c8311980fc95935e88f8253d
+SHA256: 2f9d35fce2148f5682f974c8594bb7757ee65e7665af5c3591da400d87f92906
 
 Package: me.tomt000.copylog
 Name: CopyLog
