@@ -245,6 +245,38 @@ MD5sum: 794aa535ae75872a78dd8fef6893a646
 SHA1: afd1291cc2925b53965f0b4247336b65cfba7888
 SHA256: b4d61e0531357f8e2635dd12b687022389f47eed91965acbfce7fa6f07533a86
 
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.36
+Installed-Size: 628
+Filename: debs/com.be-huge.insulation_0.1.36_iphoneos-arm64.deb
+Size: 88620
+MD5sum: 0dd0720ef25af0bc9687944afe612154
+SHA1: 6af25da491e6e8d25720797f5dc1d4091e1afc28
+SHA256: 4ee9f5c17ac0b9874a13a11eb74e7e77357cbd37b60acca38480a18a41262efb
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.36
+Installed-Size: 596
+Filename: debs/com.be-huge.insulation_0.1.36_iphoneos-arm64e.deb
+Size: 82608
+MD5sum: d91751edf825f942b06ba1f00c2b8bae
+SHA1: de79958bae8bb3b87d00d1726eef72089dfe1a96
+SHA256: 0d75f7b4dff58432c88b5e7a887c2c768b77778f9fd6de7288564b28d97e9db7
+
 Package: com.brend0n.notransitcardversionlimit
 Name: NoTransitCardVersionLimit
 Depends: mobilesubstrate
