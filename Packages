@@ -347,7 +347,7 @@ SHA256: b62eaaa86bd3354c1ba9de76aee39c4e6af62e426d1898e107cb8e8d86b89617
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
 Author: doimty
-Description: Force 120Hz ProMotion — Overrides the 80Hz system limit. Requires iPhone 13 Pro or later.
+Description: Enables full 120Hz ProMotion by overriding the system 80Hz refresh-rate cap. Requires iPhone 13 Pro or later.
 Depends: mobilesubstrate
 Maintainer: doimty
 Section: Tweaks
@@ -356,15 +356,15 @@ Architecture: iphoneos-arm64
 Version: 1.0.7
 Installed-Size: 236
 Filename: debs/com.doimty.promotion_1.0.7_iphoneos-arm64.deb
-Size: 42186
-MD5sum: 76fdd8e3e09ffce2b8700d013e6d0006
-SHA1: 57e2793ea425bb6107dd6cd0b705403245ea512a
-SHA256: 9190fe7c905575c9b69d21d0c53626e71910bf7ad75623ce0d5a209ea0078639
+Size: 42196
+MD5sum: 542a520c8e048e16d693561f1480a7da
+SHA1: 05f494bf880bf1a893179c25ae40c1f4d5889a39
+SHA256: 3ddb6a3b5b01ccad6615204dc1ce0a5daefb35919497dd0c90a3afecdd125ecd
 
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
 Author: doimty
-Description: Force 120Hz ProMotion — Overrides the 80Hz system limit. Requires iPhone 13 Pro or later.
+Description: Enables full 120Hz ProMotion by overriding the system 80Hz refresh-rate cap. Requires iPhone 13 Pro or later.
 Depends: mobilesubstrate
 Maintainer: doimty
 Section: Tweaks
@@ -373,10 +373,10 @@ Architecture: iphoneos-arm64e
 Version: 1.0.7
 Installed-Size: 236
 Filename: debs/com.doimty.promotion_1.0.7_iphoneos-arm64e.deb
-Size: 42092
-MD5sum: 5769676aae0c31aab5436600c65323a2
-SHA1: 515c800f6404cb1dc9b0a09573d0346b65fcb0f9
-SHA256: 9cd1cd7699c049d35dcb2e8d63845d8d1fb5ca0b7b0a097199b98a72efa2b168
+Size: 42096
+MD5sum: 8e39ba23966c84831e5d1d4eca089078
+SHA1: a51e6e218f615540b59c632a65109ad0a07b289f
+SHA256: 965b7277b89fc8db3367c67a1df316f336c853ddf9150dd556df9c25c665477d
 
 Package: com.eliassfeir.smartnetwork
 Section: Tweaks
