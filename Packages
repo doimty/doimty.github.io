@@ -671,6 +671,24 @@ MD5sum: 90979fa9b0632642ea44197656b4c4aa
 SHA1: 7b6cc2423aeeecf3ded08831d32d219192263bf5
 SHA256: 3832b50328719159c474f931e02e9a4135662db9deef4bf9c2dd487ea3ee7248
 
+Package: com.udevs.vedette
+Name: Vedette
+Description: Monitor CPU hogging processes
+Maintainer: udevs
+Author: udevs
+Section: Tweaks
+Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Installed-Size: 504
+Filename: debs/com.udevs.vedette_1.1.4_iphoneos-arm64e.deb
+Size: 66540
+MD5sum: ffae11d135e0e9684327224867ea7ba3
+SHA1: 2fcc6258945611d12339c4a919c67503e67da9ed
+SHA256: 0fa2ec22f5f3f5c716629b2689d57c3e756608414dd4953a5820c1d18d89ce7d
+
 Package: com.wechat.fzye
 Name: WeChat
 Version: 1.5.9-6
