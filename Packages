@@ -382,23 +382,6 @@ Depends: mobilesubstrate
 Maintainer: doimty
 Section: Tweaks
 Tag: supports::roothide
-Architecture: iphoneos-arm64
-Version: 1.0.6
-Installed-Size: 236
-Filename: debs/com.doimty.promotion_1.0.6_iphoneos-arm64.deb
-Size: 40574
-MD5sum: 35f1402e91d8559174628f8e2b133e1d
-SHA1: 22c0d3e64d3eaebda79c358043c51dbca1729622
-SHA256: 6eb2d67cd98981bfd1bb72253a430488797afd6d74239e55f8357e99449279e6
-
-Package: com.doimty.promotion
-Name: ProMotion 120Hz
-Author: doimty
-Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
-Depends: mobilesubstrate
-Maintainer: doimty
-Section: Tweaks
-Tag: supports::roothide
 Architecture: iphoneos-arm64e
 Version: 1.0.6
 Installed-Size: 236
@@ -416,23 +399,6 @@ Depends: mobilesubstrate
 Maintainer: doimty
 Section: Tweaks
 Tag: supports::roothide
-Architecture: iphoneos-arm64
-Version: 1.0.7
-Installed-Size: 236
-Filename: debs/com.doimty.promotion_1.0.7_iphoneos-arm64.deb
-Size: 25982
-MD5sum: 98076729b50e8b067673afba0af2da7d
-SHA1: fb87765c860ea2e340e68d62e100e201a2095ebe
-SHA256: cb9279074a93fd4f323446a6891e1d9e5cfac1c77455201843f31de319875ef6
-
-Package: com.doimty.promotion
-Name: ProMotion 120Hz
-Author: doimty
-Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
-Depends: mobilesubstrate
-Maintainer: doimty
-Section: Tweaks
-Tag: supports::roothide
 Architecture: iphoneos-arm64e
 Version: 1.0.7
 Installed-Size: 236
@@ -441,23 +407,6 @@ Size: 25748
 MD5sum: 4462797f911c3edf80b588d7434557aa
 SHA1: e033af21180931221a7999323455fabc2dc2f467
 SHA256: fbe115edd70a9f0119a5fc0964a1208d5013c0441d3c352b2196f08b03d1a304
-
-Package: com.doimty.promotion
-Name: ProMotion 120Hz
-Author: doimty
-Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
-Depends: mobilesubstrate
-Maintainer: doimty
-Section: Tweaks
-Tag: supports::roothide
-Architecture: iphoneos-arm64
-Version: 1.0.8
-Installed-Size: 236
-Filename: debs/com.doimty.promotion_1.0.8_iphoneos-arm64.deb
-Size: 26058
-MD5sum: 6bfb349d91f3d02ec47fcf6de7093f98
-SHA1: a5d30c524dfad392a87300797c50db1d79732f97
-SHA256: 450770acd03f63590446e55a63ee7860dd9b664be3703a378013a556c4b7447f
 
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
