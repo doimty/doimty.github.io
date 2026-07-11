@@ -411,7 +411,7 @@ SHA256: b62eaaa86bd3354c1ba9de76aee39c4e6af62e426d1898e107cb8e8d86b89617
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
 Author: doimty
-Description: 全局 120Hz 高刷。支持通知横幅、浮窗、App 滚动场景。
+Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
 Depends: mobilesubstrate
 Maintainer: doimty
 Section: Tweaks
@@ -420,15 +420,15 @@ Architecture: iphoneos-arm64
 Version: 1.0.7
 Installed-Size: 236
 Filename: debs/com.doimty.promotion_1.0.7_iphoneos-arm64.deb
-Size: 25190
-MD5sum: 70b3edefb27ceb3dbc6169b6a1557e67
-SHA1: 914ed564fa99de81d34c8de3f24a6567892fb4fd
-SHA256: 41c42f35e4b625970573da91ca80c45dc2fd2fba931d995babde710a91dedeb3
+Size: 25178
+MD5sum: e145cff0c7f07b062e4b7608cbd7182f
+SHA1: 388f5be2a098d2b34ed38328e24c8f5f27bd3b1e
+SHA256: 4bac39536660378226054609c48922754a2922b71b0f079006353ecd381bc3a2
 
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
 Author: doimty
-Description: 全局 120Hz 高刷。支持通知横幅、浮窗、App 滚动场景。
+Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
 Depends: mobilesubstrate
 Maintainer: doimty
 Section: Tweaks
@@ -437,10 +437,10 @@ Architecture: iphoneos-arm64e
 Version: 1.0.7
 Installed-Size: 236
 Filename: debs/com.doimty.promotion_1.0.7_iphoneos-arm64e.deb
-Size: 25088
-MD5sum: 8a45701d55d26dfa5c7466ef87b1216e
-SHA1: 08c66db50b85ec2149ced243d9756fca514377cd
-SHA256: 6178adcd647e4a39cc90a66f9336de53a4fc9bd11c04dc8fbf107261b312e8e6
+Size: 25078
+MD5sum: c32914490c7ad53149645bc0cb05f1b6
+SHA1: 1314170230535cca005f896ce3a4e88d6f43b8de
+SHA256: 8ed46eb975f092932abc547cb18587aa4f73fdf690d1aac8cacd811a3a7ea700
 
 Package: com.eliassfeir.smartnetwork
 Section: Tweaks
