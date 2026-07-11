@@ -420,10 +420,10 @@ Architecture: iphoneos-arm64
 Version: 1.0.7
 Installed-Size: 236
 Filename: debs/com.doimty.promotion_1.0.7_iphoneos-arm64.deb
-Size: 25178
-MD5sum: e145cff0c7f07b062e4b7608cbd7182f
-SHA1: 388f5be2a098d2b34ed38328e24c8f5f27bd3b1e
-SHA256: 4bac39536660378226054609c48922754a2922b71b0f079006353ecd381bc3a2
+Size: 25504
+MD5sum: 48d2aedd7ccad95beb64a88339bb30ea
+SHA1: 443ae91faf96ae1cf34b40e1e7c6270b181cb3d4
+SHA256: 3b8fcba10003c36ed9fed65892269cb0672b9ada73ba2f6ea67b05017ea655cc
 
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
@@ -437,10 +437,10 @@ Architecture: iphoneos-arm64e
 Version: 1.0.7
 Installed-Size: 236
 Filename: debs/com.doimty.promotion_1.0.7_iphoneos-arm64e.deb
-Size: 25078
-MD5sum: c32914490c7ad53149645bc0cb05f1b6
-SHA1: 1314170230535cca005f896ce3a4e88d6f43b8de
-SHA256: 8ed46eb975f092932abc547cb18587aa4f73fdf690d1aac8cacd811a3a7ea700
+Size: 25388
+MD5sum: 0c6ccf89bb4d01dc82cc5a8804d0e029
+SHA1: ed89b6a783e9f39e2207090e42ea2ad08ef88981
+SHA256: 9d9d6c3f626792040da1810ddf195fe62a391e4d0500aeaa23123ff54c6a3986
 
 Package: com.eliassfeir.smartnetwork
 Section: Tweaks
