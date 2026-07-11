@@ -704,28 +704,6 @@ MD5sum: ffae11d135e0e9684327224867ea7ba3
 SHA1: 2fcc6258945611d12339c4a919c67503e67da9ed
 SHA256: 0fa2ec22f5f3f5c716629b2689d57c3e756608414dd4953a5820c1d18d89ce7d
 
-Package: com.wechat.fzye
-Name: WeChat
-Version: 1.5.9-6
-Description: 微信插件
-Section: Tweaks
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: 
-Replaces: 
-Priority: optional
-Architecture: iphoneos-arm
-Author: Jan
-dev: 
-Homepage: 
-Depiction: 
-Maintainer: Jan
-Icon:
-Filename: debs/com.wechat.fzye_1.5.9-6_iphoneos-arm.deb
-Size: 1360104
-MD5sum: d3b2a273f2ef9a42631fcf013f5ef247
-SHA1: cc884c7cb87ee4c4307ac0ebeac0a8c8548b11f9
-SHA256: 86128baced40659b42d858e3f26f97bdbd0de2a4d1d70c18deb5faf6d29a3d32
-
 Package: com.yourepo.ibreak.dolbysoundeffect
 Section: System
 Maintainer: iBreak <ibreak2019@qq.com>
