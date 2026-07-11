@@ -279,7 +279,7 @@ SHA256: 0d75f7b4dff58432c88b5e7a887c2c768b77778f9fd6de7288564b28d97e9db7
 
 Package: com.be-huge.insulation
 Name: insulation
-Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
 Maintainer: doimty
 Author: be-huge & doimty
 Section: Tweaks
@@ -288,14 +288,14 @@ Architecture: iphoneos-arm64
 Version: 0.1.37
 Installed-Size: 816
 Filename: debs/com.be-huge.insulation_0.1.37_iphoneos-arm64.deb
-Size: 64942
-MD5sum: bf3815fb6c41b1d22ba61607391d862c
-SHA1: a1d7901dc45b51ee17391d52e29fc530eb24ac34
-SHA256: 147e809f27e00e2ad79a457ed9076c211c30aa50a954c7c47ad1f400c8d7a262
+Size: 65114
+MD5sum: 067aaf5c40a7a5322c0dfff561e884bd
+SHA1: cf18aebd21825196ad9ae1b9da8baec5bcaf21a9
+SHA256: 24b7deaefaf644cc7112433535288d88ec7d3185d74cef58957062476d609111
 
 Package: com.be-huge.insulation
 Name: insulation
-Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
 Maintainer: doimty
 Author: be-huge & doimty
 Section: Tweaks
@@ -304,10 +304,10 @@ Architecture: iphoneos-arm64e
 Version: 0.1.37
 Installed-Size: 800
 Filename: debs/com.be-huge.insulation_0.1.37_iphoneos-arm64e.deb
-Size: 62374
-MD5sum: d05eb61159cf3e7c5b1809519b327f1d
-SHA1: d0dbbb528f902f154ec2cd4b1bbc7f75335b6ca7
-SHA256: 163a8fdd9933713da4650f0716e609c2ed1a6e0c9b65847f04c15c4f07ad35a0
+Size: 62448
+MD5sum: 4383c84b80ebc002480efe7d3385d187
+SHA1: cc91f62db806a71a3a2484b48df3d4a27f61d87b
+SHA256: 01e7219fd57737b5d59c65fd9fb9d86e1ce6aa89de33b4a4b8ce91f8e76ef25c
 
 Package: com.brend0n.notransitcardversionlimit
 Name: NoTransitCardVersionLimit
