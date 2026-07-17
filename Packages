@@ -696,13 +696,13 @@ Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.a
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
 Architecture: iphoneos-arm64e
-Version: 1.1.4
+Version: 1.1.5
 Installed-Size: 504
-Filename: debs/com.udevs.vedette_1.1.4_iphoneos-arm64e.deb
-Size: 66540
-MD5sum: ffae11d135e0e9684327224867ea7ba3
-SHA1: 2fcc6258945611d12339c4a919c67503e67da9ed
-SHA256: 0fa2ec22f5f3f5c716629b2689d57c3e756608414dd4953a5820c1d18d89ce7d
+Filename: debs/com.udevs.vedette_1.1.5_iphoneos-arm64e.deb
+Size: 70092
+MD5sum: a68caab6f513cfdfec9f05c274cb2598
+SHA1: 2f87d760e4c5345c27d70f07cb06e9b47de952fc
+SHA256: d621c9d3ab1772cbcc43b06c2a4fdafa18b769abca1e5d53b39c8bedc6b1f694
 
 Package: com.yourepo.ibreak.dolbysoundeffect
 Section: System
