@@ -860,7 +860,7 @@ SHA256: 4f46edd61ede7099b98279f6c0622e1f51686df57a70a70c96c5fccba9e4f699
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
 Author: doimty
-Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
+Description: Force global 120Hz ProMotion on iPhone 13 Pro+. Bypasses the 80Hz system cap and maintains 120Hz in apps that block tweak injection via a persistent keepalive DisplayLink.
 Depends: mobilesubstrate
 Maintainer: doimty
 Section: Tweaks
