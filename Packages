@@ -874,8 +874,9 @@ SHA1: b2698740b46b77ab64d60d16e6044716b3a3adba
 SHA256: 440bf37bc3cdd0ccc5a0c823e861a4c514f4423e91dc2649ebb2e801c3596900
 
 Package: com.doimty.promotion
+Name: ProMotion 120Hz
 Version: 1.0.11
-Architecture: arm64
+Architecture: iphoneos-arm64
 Section: Tweaks
 Installed-Size: 17
 Filename: debs/com.doimty.promotion_1.0.11_iphoneos-arm64.deb
@@ -885,8 +886,9 @@ SHA1: 5694e3949b3c33f2cfc809c24987b438d7abbb7f
 SHA256: a0d8465cf376eccfd60f39eaba986b89325d082e53fac4da9dae24fed8db5e7d
 
 Package: com.be-huge.insulation
+Name: insulation
 Version: 0.1.38
-Architecture: arm64
+Architecture: iphoneos-arm64
 Section: Tweaks
 Installed-Size: 57
 Filename: debs/com.be-huge.insulation_0.1.38_iphoneos-arm64.deb
@@ -896,8 +898,9 @@ SHA1: d617686b379bfc8048a7eeeba4653cbaaf3a3eac
 SHA256: 4322d327c014093512b1c29246908a2c58ddf257db29d1548d2c079019568a46
 
 Package: com.be-huge.insulation
+Name: insulation
 Version: 0.1.38
-Architecture: arm64e
+Architecture: iphoneos-arm64e
 Section: Tweaks
 Installed-Size: 55
 Filename: debs/com.be-huge.insulation_0.1.38_iphoneos-arm64e.deb
