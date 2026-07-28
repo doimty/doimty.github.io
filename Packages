@@ -873,3 +873,14 @@ Size: 16586
 MD5sum: 5a0ee7e408dd8a65580c06ddf0be4c13
 SHA1: b2698740b46b77ab64d60d16e6044716b3a3adba
 SHA256: 440bf37bc3cdd0ccc5a0c823e861a4c514f4423e91dc2649ebb2e801c3596900
+Package: com.doimty.promotion
+Version: 1.0.11
+Architecture: arm64
+Section: Tweaks
+Installed-Size: 17
+Filename: debs/com.doimty.promotion_1.0.11_iphoneos-arm64.deb
+Size: 16710
+MD5sum: 25325a3c9a3b24dead546d42869d0b79
+SHA1: 5694e3949b3c33f2cfc809c24987b438d7abbb7f
+SHA256: a0d8465cf376eccfd60f39eaba986b89325d082e53fac4da9dae24fed8db5e7d
+
