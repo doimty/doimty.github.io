@@ -883,4 +883,14 @@ Size: 16710
 MD5sum: 25325a3c9a3b24dead546d42869d0b79
 SHA1: 5694e3949b3c33f2cfc809c24987b438d7abbb7f
 SHA256: a0d8465cf376eccfd60f39eaba986b89325d082e53fac4da9dae24fed8db5e7d
+Package: com.be-huge.insulation
+Version: 0.1.38
+Architecture: arm64
+Section: Tweaks
+Installed-Size: 57
+Filename: debs/com.be-huge.insulation_0.1.38_iphoneos-arm64.deb
+Size: 58330
+MD5sum: 7d0a67ebef366650f1395cf06b839cbc
+SHA1: d617686b379bfc8048a7eeeba4653cbaaf3a3eac
+SHA256: 4322d327c014093512b1c29246908a2c58ddf257db29d1548d2c079019568a46
 
