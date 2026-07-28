@@ -856,7 +856,6 @@ MD5sum: 0ff37f0286c5dbab0d201a371968509b
 SHA1: 8ecef2d25f49faf2400dad025eb6257f074581ce
 SHA256: 4f46edd61ede7099b98279f6c0622e1f51686df57a70a70c96c5fccba9e4f699
 
-
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
 Author: doimty
@@ -873,6 +872,7 @@ Size: 16586
 MD5sum: 5a0ee7e408dd8a65580c06ddf0be4c13
 SHA1: b2698740b46b77ab64d60d16e6044716b3a3adba
 SHA256: 440bf37bc3cdd0ccc5a0c823e861a4c514f4423e91dc2649ebb2e801c3596900
+
 Package: com.doimty.promotion
 Version: 1.0.11
 Architecture: arm64
@@ -883,6 +883,7 @@ Size: 16710
 MD5sum: 25325a3c9a3b24dead546d42869d0b79
 SHA1: 5694e3949b3c33f2cfc809c24987b438d7abbb7f
 SHA256: a0d8465cf376eccfd60f39eaba986b89325d082e53fac4da9dae24fed8db5e7d
+
 Package: com.be-huge.insulation
 Version: 0.1.38
 Architecture: arm64
@@ -893,6 +894,7 @@ Size: 58330
 MD5sum: 7d0a67ebef366650f1395cf06b839cbc
 SHA1: d617686b379bfc8048a7eeeba4653cbaaf3a3eac
 SHA256: 4322d327c014093512b1c29246908a2c58ddf257db29d1548d2c079019568a46
+
 Package: com.be-huge.insulation
 Version: 0.1.38
 Architecture: arm64e
@@ -903,4 +905,3 @@ Size: 55722
 MD5sum: ef3b2a71395233f1e6c84cf54645a9e2
 SHA1: 17d3569f555c40ce0663664c52fe6eff3444b8db
 SHA256: 7db55f8526783f5448b4cfa3c89ba0af6c6d42fdeca818e906aa4e15d5319033
-
