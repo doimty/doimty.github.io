@@ -1,0 +1,52 @@
+name: Rebuild APT indexes
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "debs/*.deb"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apt-index-rebuild
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    name: Rebuild Packages and Release
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # A queued run may have been created before an earlier run committed its
+      # indexes. Rebuild from the current main so all debs are represented.
+      - name: Refresh main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
+      - name: Rebuild indexes
+        run: python3 scripts/update-repo.py
+
+      - name: Validate indexes
+        run: python3 scripts/validate-repo.py
+
+      - name: Commit rebuilt indexes
+        run: |
+          if git diff --quiet -- Packages Packages.gz Packages.xz Packages.lzma Release; then
+            echo "APT indexes are already current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Packages Packages.gz Packages.xz Packages.lzma Release
+          git commit -m "chore: rebuild APT indexes"
+          git push origin HEAD:main
