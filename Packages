@@ -1006,3 +1006,19 @@ MD5sum: 0ff37f0286c5dbab0d201a371968509b
 SHA1: 8ecef2d25f49faf2400dad025eb6257f074581ce
 SHA256: 4f46edd61ede7099b98279f6c0622e1f51686df57a70a70c96c5fccba9e4f699
 
+Package: com.udevs.vedette
+Name: Vedette
+Author: udevs
+Description: Monitor CPU hogging processes
+Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Maintainer: udevs
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.10
+Installed-Size: 81
+Filename: debs/com.udevs.vedette_1.1.10_iphoneos-arm64e.deb
+Size: 82818
+MD5sum: 886b60709339b016331fb53216cf6fba
+SHA1: c1023a40c30e4737035b284ab1b2f31a3d0e3455
+SHA256: d106aa921a09891fc9a322a78924e20d6020b9ffc1d71e979d1c7de83a3fdb48
+
