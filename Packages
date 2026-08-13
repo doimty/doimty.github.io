@@ -309,6 +309,70 @@ MD5sum: 4383c84b80ebc002480efe7d3385d187
 SHA1: cc91f62db806a71a3a2484b48df3d4a27f61d87b
 SHA256: 01e7219fd57737b5d59c65fd9fb9d86e1ce6aa89de33b4a4b8ce91f8e76ef25c
 
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.38.1
+Installed-Size: 828
+Filename: debs/com.be-huge.insulation_0.1.38.1_iphoneos-arm64.deb
+Size: 59732
+MD5sum: 28b27349aa2d8a560702ccb8a74f4b77
+SHA1: 417817a73765c65d908c657c46a9b3cb15276a58
+SHA256: a16ad08b248239e9f4e4b6813412925f2f3ca183c2365c0d10422480e906e7f7
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.38.1
+Installed-Size: 780
+Filename: debs/com.be-huge.insulation_0.1.38.1_iphoneos-arm64e.deb
+Size: 57024
+MD5sum: 548758f431fed3ae2df216bb491d6c62
+SHA1: fd40899f9d37489c30a01a79d245d80c20af9f45
+SHA256: 75d9920232145bae39c8a3217091e8cb3dec60d0074df265fbfa86a7d44e19c9
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.38
+Installed-Size: 796
+Filename: debs/com.be-huge.insulation_0.1.38_iphoneos-arm64.deb
+Size: 58330
+MD5sum: 7d0a67ebef366650f1395cf06b839cbc
+SHA1: d617686b379bfc8048a7eeeba4653cbaaf3a3eac
+SHA256: 4322d327c014093512b1c29246908a2c58ddf257db29d1548d2c079019568a46
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.38
+Installed-Size: 780
+Filename: debs/com.be-huge.insulation_0.1.38_iphoneos-arm64e.deb
+Size: 55722
+MD5sum: ef3b2a71395233f1e6c84cf54645a9e2
+SHA1: 17d3569f555c40ce0663664c52fe6eff3444b8db
+SHA256: 7db55f8526783f5448b4cfa3c89ba0af6c6d42fdeca818e906aa4e15d5319033
+
 Package: com.brend0n.notransitcardversionlimit
 Name: NoTransitCardVersionLimit
 Depends: mobilesubstrate
@@ -344,6 +408,23 @@ MD5sum: f419b5a303b942fcc09042d2b5bf6af0
 SHA1: 47e2067c8d3fb54b232f5c52a19c2d0f6cc0672e
 SHA256: 70ff481529a058f417a516f984aca204ddb37afefd9778c4912edfba1dbf34b4
 
+Package: com.doimty.fixrepairsystempower
+Name: Fix Repair System Power
+Author: doimty
+Description: CPU Battery Saver Battery Connected State Not Change Remove Monitored Regions Don't Use Background Location Services No Update WiFi State Remove Pretending To Search In Telephony Manager No Has Results From Wifi Scan Disable Wifi Charger Queue Has Cellular Telephony Private Location Apps Not Using Location With Details Remove Animations Remove Animations Fake Service If Unnecessary Don't Scan For Updates Remove Check Time Zone Time Zone (Fixed) AdBlock - Block Some iAds No Automatic Sync Hidden iAds Device
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 0.0.8
+Installed-Size: 72
+Filename: debs/com.doimty.fixrepairsystempower_0.0.8_iphoneos-arm64e.deb
+Size: 4444
+MD5sum: 2b5cc48b60e48f2a81d7b9070a1b05d3
+SHA1: 5e5cb75d9cf0e3508f874f5f15b255529574362c
+SHA256: 9869ed1f8072dc7ec8bfbbcba31e64b6fb0329138d1a84a39b774fe5db966cea
+
 Package: com.doimty.mountfont
 Name: Filza Font Mount Script
 Section: System
@@ -373,6 +454,40 @@ Size: 5020
 MD5sum: ad8c7e779ae5d573f1444a7171b8fcf4
 SHA1: 6f9e870202eb73843786497b1c74d59e158c5200
 SHA256: a0587ca5b7b122054bb6f73d2bc785aa6dcac52cccbc9c13a857ddcd490ef72c
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: Force global 120Hz ProMotion on iPhone 13 Pro+. Bypasses the 80Hz system cap and maintains 120Hz in apps that block tweak injection via a persistent keepalive DisplayLink.
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64
+Version: 1.0.11
+Installed-Size: 108
+Filename: debs/com.doimty.promotion_1.0.11_iphoneos-arm64.deb
+Size: 16710
+MD5sum: 25325a3c9a3b24dead546d42869d0b79
+SHA1: 5694e3949b3c33f2cfc809c24987b438d7abbb7f
+SHA256: a0d8465cf376eccfd60f39eaba986b89325d082e53fac4da9dae24fed8db5e7d
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.11
+Installed-Size: 108
+Filename: debs/com.doimty.promotion_1.0.11_iphoneos-arm64e.deb
+Size: 16586
+MD5sum: 5a0ee7e408dd8a65580c06ddf0be4c13
+SHA1: b2698740b46b77ab64d60d16e6044716b3a3adba
+SHA256: 440bf37bc3cdd0ccc5a0c823e861a4c514f4423e91dc2649ebb2e801c3596900
 
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
@@ -407,6 +522,23 @@ Size: 25748
 MD5sum: 4462797f911c3edf80b588d7434557aa
 SHA1: e033af21180931221a7999323455fabc2dc2f467
 SHA256: fbe115edd70a9f0119a5fc0964a1208d5013c0441d3c352b2196f08b03d1a304
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Installed-Size: 236
+Filename: debs/com.doimty.promotion_1.0.8_iphoneos-arm64.deb
+Size: 26010
+MD5sum: e6015dda214d7ccf1cce48a44390bd23
+SHA1: 7cc58dd4d089cbdd23993559e176f3cf6e230c80
+SHA256: 697bc17507d7ee46914164ef15580f375e9a01d2a4cb996ce762ea76df4eceae
 
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
@@ -696,6 +828,24 @@ Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.a
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
 Architecture: iphoneos-arm64e
+Version: 1.1.4
+Installed-Size: 504
+Filename: debs/com.udevs.vedette_1.1.4_iphoneos-arm64e.deb
+Size: 66540
+MD5sum: ffae11d135e0e9684327224867ea7ba3
+SHA1: 2fcc6258945611d12339c4a919c67503e67da9ed
+SHA256: 0fa2ec22f5f3f5c716629b2689d57c3e756608414dd4953a5820c1d18d89ce7d
+
+Package: com.udevs.vedette
+Name: Vedette
+Description: Monitor CPU hogging processes
+Maintainer: udevs
+Author: udevs
+Section: Tweaks
+Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
+Architecture: iphoneos-arm64e
 Version: 1.1.5
 Installed-Size: 504
 Filename: debs/com.udevs.vedette_1.1.5_iphoneos-arm64e.deb
@@ -855,119 +1005,4 @@ Size: 15524
 MD5sum: 0ff37f0286c5dbab0d201a371968509b
 SHA1: 8ecef2d25f49faf2400dad025eb6257f074581ce
 SHA256: 4f46edd61ede7099b98279f6c0622e1f51686df57a70a70c96c5fccba9e4f699
-
-Package: com.doimty.promotion
-Name: ProMotion 120Hz
-Author: doimty
-Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
-Depends: mobilesubstrate
-Maintainer: doimty
-Section: Tweaks
-Tag: supports::roothide
-Architecture: iphoneos-arm64e
-Version: 1.0.11
-Installed-Size: 108
-Filename: debs/com.doimty.promotion_1.0.11_iphoneos-arm64e.deb
-Size: 16586
-MD5sum: 5a0ee7e408dd8a65580c06ddf0be4c13
-SHA1: b2698740b46b77ab64d60d16e6044716b3a3adba
-SHA256: 440bf37bc3cdd0ccc5a0c823e861a4c514f4423e91dc2649ebb2e801c3596900
-
-Package: com.doimty.promotion
-Name: ProMotion 120Hz
-Author: doimty
-Description: Force global 120Hz ProMotion on iPhone 13 Pro+. Bypasses the 80Hz system cap and maintains 120Hz in apps that block tweak injection via a persistent keepalive DisplayLink.
-Depends: mobilesubstrate
-Maintainer: doimty
-Section: Tweaks
-Tag: supports::roothide
-Architecture: iphoneos-arm64
-Version: 1.0.11
-Installed-Size: 17
-Filename: debs/com.doimty.promotion_1.0.11_iphoneos-arm64.deb
-Size: 16710
-MD5sum: 25325a3c9a3b24dead546d42869d0b79
-SHA1: 5694e3949b3c33f2cfc809c24987b438d7abbb7f
-SHA256: a0d8465cf376eccfd60f39eaba986b89325d082e53fac4da9dae24fed8db5e7d
-
-Package: com.be-huge.insulation
-Name: insulation
-Author: be-huge & doimty
-Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
-Depends: firmware (>= 15.0)
-Maintainer: doimty
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 0.1.38
-Installed-Size: 57
-Filename: debs/com.be-huge.insulation_0.1.38_iphoneos-arm64.deb
-Size: 58330
-MD5sum: 7d0a67ebef366650f1395cf06b839cbc
-SHA1: d617686b379bfc8048a7eeeba4653cbaaf3a3eac
-SHA256: 4322d327c014093512b1c29246908a2c58ddf257db29d1548d2c079019568a46
-
-Package: com.be-huge.insulation
-Name: insulation
-Author: be-huge & doimty
-Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
-Depends: firmware (>= 15.0)
-Maintainer: doimty
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 0.1.38
-Installed-Size: 55
-Filename: debs/com.be-huge.insulation_0.1.38_iphoneos-arm64e.deb
-Size: 55722
-MD5sum: ef3b2a71395233f1e6c84cf54645a9e2
-SHA1: 17d3569f555c40ce0663664c52fe6eff3444b8db
-SHA256: 7db55f8526783f5448b4cfa3c89ba0af6c6d42fdeca818e906aa4e15d5319033
-
-Package: com.be-huge.insulation
-Name: insulation
-Author: be-huge & doimty
-Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
-Depends: firmware (>= 15.0)
-Maintainer: doimty
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 0.1.38.1
-Installed-Size: 59
-Filename: debs/com.be-huge.insulation_0.1.38.1_iphoneos-arm64.deb
-Size: 59732
-MD5sum: 28b27349aa2d8a560702ccb8a74f4b77
-SHA1: 417817a73765c65d908c657c46a9b3cb15276a58
-SHA256: a16ad08b248239e9f4e4b6813412925f2f3ca183c2365c0d10422480e906e7f7
-
-Package: com.be-huge.insulation
-Name: insulation
-Author: be-huge & doimty
-Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
-Depends: firmware (>= 15.0)
-Maintainer: doimty
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 0.1.38.1
-Installed-Size: 56
-Filename: debs/com.be-huge.insulation_0.1.38.1_iphoneos-arm64e.deb
-Size: 57024
-MD5sum: 548758f431fed3ae2df216bb491d6c62
-SHA1: fd40899f9d37489c30a01a79d245d80c20af9f45
-SHA256: 75d9920232145bae39c8a3217091e8cb3dec60d0074df265fbfa86a7d44e19c9
-
-Package: com.doimty.fixrepairsystempower
-Name: Fix Repair System Power
-Author: doimty
-Description: CPU Battery Saver Battery Connected State Not Change Remove Monitored Regions Don't Use Background Location Services No Update WiFi State Remove Pretending To Search In Telephony Manager No Has Results From Wifi Scan Disable Wifi Charger Queue Has Cellular Telephony Private Location Apps Not Using Location With Details Remove Animations Remove Animations Fake Service If Unnecessary Don't Scan For Updates Remove Check Time Zone Time Zone (Fixed) AdBlock - Block Some iAds No Automatic Sync Hidden iAds Device
-Depends: mobilesubstrate
-Maintainer: doimty
-Section: Tweaks
-Tag: supports::roothide
-Architecture: iphoneos-arm64e
-Version: 0.0.8
-Installed-Size: 5
-Filename: debs/com.doimty.fixrepairsystempower_0.0.8_iphoneos-arm64e.deb
-Size: 4444
-MD5sum: 2b5cc48b60e48f2a81d7b9070a1b05d3
-SHA1: 5e5cb75d9cf0e3508f874f5f15b255529574362c
-SHA256: 9869ed1f8072dc7ec8bfbbcba31e64b6fb0329138d1a84a39b774fe5db966cea
 
