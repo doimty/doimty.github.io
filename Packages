@@ -954,3 +954,20 @@ MD5sum: 548758f431fed3ae2df216bb491d6c62
 SHA1: fd40899f9d37489c30a01a79d245d80c20af9f45
 SHA256: 75d9920232145bae39c8a3217091e8cb3dec60d0074df265fbfa86a7d44e19c9
 
+Package: com.doimty.fixrepairsystempower
+Name: Fix Repair System Power
+Author: doimty
+Description: CPU Battery Saver Battery Connected State Not Change Remove Monitored Regions Don't Use Background Location Services No Update WiFi State Remove Pretending To Search In Telephony Manager No Has Results From Wifi Scan Disable Wifi Charger Queue Has Cellular Telephony Private Location Apps Not Using Location With Details Remove Animations Remove Animations Fake Service If Unnecessary Don't Scan For Updates Remove Check Time Zone Time Zone (Fixed) AdBlock - Block Some iAds No Automatic Sync Hidden iAds Device
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 0.0.8
+Installed-Size: 5
+Filename: debs/com.doimty.fixrepairsystempower_0.0.8_iphoneos-arm64e.deb
+Size: 4444
+MD5sum: 2b5cc48b60e48f2a81d7b9070a1b05d3
+SHA1: 5e5cb75d9cf0e3508f874f5f15b255529574362c
+SHA256: 9869ed1f8072dc7ec8bfbbcba31e64b6fb0329138d1a84a39b774fe5db966cea
+
