@@ -4,6 +4,23 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "Packages"
+      - "Packages.gz"
+      - "Packages.xz"
+      - "Packages.lzma"
+      - "Release"
+      - "index.html"
+      - "CydiaIcon.png"
+      - "Categories"
+      - ".nojekyll"
+  workflow_run:
+    workflows:
+      - Rebuild APT indexes
+    types:
+      - completed
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -17,6 +34,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
