@@ -591,6 +591,24 @@ MD5sum: 2d74272601d6bf7beea268400510c0e4
 SHA1: 6f0deb8e8170196bf46de5e7fef6bc853ec96fae
 SHA256: a787ff8d80ecc389f12bc5d4507523115513195d30631833507bba33cc7b9214
 
+Package: com.imkpatil.homebarsizer
+Name: HomeBarSizer
+Description: 调节 iOS 底部 HomeBar 的宽度、高度和圆角。iOS 15+ roothide 适配版，设置即时生效。
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Maintainer: 灰灰
+Author: 灰灰
+Section: Tweaks
+Tag: supports::roothide
+Icon: file:///Library/Application Support/HomeBarSizer/icon.png
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 160
+Filename: debs/com.imkpatil.homebarsizer_1.2_iphoneos-arm64e.deb
+Size: 9334
+MD5sum: 61010d81f6c4a4537c2f59c59e9b91fb
+SHA1: 19f36100810ca085768b6c2eb11f6ade072ca902
+SHA256: dd0478a8ecb83138e1c0f373bd26199646b00acd50ff9891347d0d964a0c23bf
+
 Package: com.jontelang.bigshotsnapper3plugin
 Section: Tweaks
 Installed-Size: 536
@@ -828,6 +846,24 @@ Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.a
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
 Architecture: iphoneos-arm64e
+Version: 1.1.10
+Installed-Size: 576
+Filename: debs/com.udevs.vedette_1.1.10_iphoneos-arm64e.deb
+Size: 82818
+MD5sum: 886b60709339b016331fb53216cf6fba
+SHA1: c1023a40c30e4737035b284ab1b2f31a3d0e3455
+SHA256: d106aa921a09891fc9a322a78924e20d6020b9ffc1d71e979d1c7de83a3fdb48
+
+Package: com.udevs.vedette
+Name: Vedette
+Description: Monitor CPU hogging processes
+Maintainer: udevs
+Author: udevs
+Section: Tweaks
+Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
+Architecture: iphoneos-arm64e
 Version: 1.1.4
 Installed-Size: 504
 Filename: debs/com.udevs.vedette_1.1.4_iphoneos-arm64e.deb
@@ -938,6 +974,22 @@ MD5sum: d8c35e7dd0f08efc5c710ef60c53df66
 SHA1: 754cc43c3524ea7fd617e65344f11e1979c3925f
 SHA256: 689d33c8add2b75ffabe638b0f29c735218ba9a4719b9b7e6717063eaa619368
 
+Package: me.nixuge.networkmanager
+Name: NetworkManagerReborn Roothide
+Depends: mobilesubstrate, com.opa334.ccsupport
+Description: Force 2G/3G/4G/5G connection from the Control Center (Roothide build)
+Maintainer: Nixuge, 灰灰
+Author: NoisyFlake, Nixuge, 灰灰
+Section: Control Center (Modules)
+Architecture: iphoneos-arm64e
+Version: 1.4.3
+Installed-Size: 396
+Filename: debs/me.nixuge.networkmanager_1.4.3_iphoneos-arm64e.deb
+Size: 35522
+MD5sum: c7e2c01c62b9d84c624d8a4b484d0fac
+SHA1: 345053689fe1f6733ad9656c4b3da97aff7a03e3
+SHA256: 2ac00177545f169578d4d030e2577005c20c0d7454a4684321a326529198d516
+
 Package: me.tomt000.copylog
 Name: CopyLog
 Depends: mobilesubstrate, preferenceloader
@@ -989,36 +1041,4 @@ Size: 15524
 MD5sum: 0ff37f0286c5dbab0d201a371968509b
 SHA1: 8ecef2d25f49faf2400dad025eb6257f074581ce
 SHA256: 4f46edd61ede7099b98279f6c0622e1f51686df57a70a70c96c5fccba9e4f699
-
-Package: com.udevs.vedette
-Name: Vedette
-Author: udevs
-Description: Monitor CPU hogging processes
-Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Maintainer: udevs
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.1.10
-Installed-Size: 81
-Filename: debs/com.udevs.vedette_1.1.10_iphoneos-arm64e.deb
-Size: 82818
-MD5sum: 886b60709339b016331fb53216cf6fba
-SHA1: c1023a40c30e4737035b284ab1b2f31a3d0e3455
-SHA256: d106aa921a09891fc9a322a78924e20d6020b9ffc1d71e979d1c7de83a3fdb48
-
-Package: me.nixuge.networkmanager
-Name: NetworkManagerReborn Roothide
-Author: NoisyFlake, Nixuge, 灰灰
-Description: Force 2G/3G/4G/5G connection from the Control Center (Roothide build)
-Depends: mobilesubstrate, com.opa334.ccsupport
-Maintainer: Nixuge, 灰灰
-Section: Control Center (Modules)
-Architecture: iphoneos-arm64e
-Version: 1.4.3
-Installed-Size: 35
-Filename: debs/me.nixuge.networkmanager_1.4.3_iphoneos-arm64e.deb
-Size: 35522
-MD5sum: c7e2c01c62b9d84c624d8a4b484d0fac
-SHA1: 345053689fe1f6733ad9656c4b3da97aff7a03e3
-SHA256: 2ac00177545f169578d4d030e2577005c20c0d7454a4684321a326529198d516
 
