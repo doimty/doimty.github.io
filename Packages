@@ -1058,3 +1058,19 @@ MD5sum: 813009a5ae2506ed43b994c8053e8638
 SHA1: b3e86717a2f18777e77ba98c75c98ca3f19849c0
 SHA256: 3ed5ed82df233c0ba63bcb1492351224c4a450aebd6a33964a06208e4a25f488
 
+Package: com.doimty.nrmanager
+Name: NR Manager
+Author: doimty
+Description: Select NR bands and view live serving status in Control Center
+Depends: mobilesubstrate, com.opa334.ccsupport
+Maintainer: doimty
+Section: Control Center (Modules)
+Architecture: iphoneos-arm64
+Version: 1.6.6
+Installed-Size: 248
+Filename: debs/com.doimty.nrmanager_1.6.6_iphoneos-arm64.deb
+Size: 253686
+MD5sum: d80ff0aa1c77379c0f8bdc41fd4dac0f
+SHA1: 6819e010a658d7556af0769b1f5315014cebc71a
+SHA256: 5e405d26f64d49eb147830e60890e6ae979171334eca39bc8e855d02f0b0e6ee
+
