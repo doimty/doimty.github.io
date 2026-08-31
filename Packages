@@ -1074,3 +1074,22 @@ MD5sum: d80ff0aa1c77379c0f8bdc41fd4dac0f
 SHA1: 6819e010a658d7556af0769b1f5315014cebc71a
 SHA256: 5e405d26f64d49eb147830e60890e6ae979171334eca39bc8e855d02f0b0e6ee
 
+Package: com.doimty.daynightswitch
+Name: DayNightSwitch
+Author: doimty
+Description: Add some style to your switches
+Depends: firmware (>= 14.0), mobilesubstrate
+Provides: de.finngaida.daynightswitch
+Conflicts: de.finngaida.daynightswitch
+Replaces: de.finngaida.daynightswitch
+Maintainer: doimty
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Installed-Size: 73
+Filename: debs/com.doimty.daynightswitch_1.2.4_iphoneos-arm64.deb
+Size: 74440
+MD5sum: 48b6d278d982e7a2cac9855598a0482a
+SHA1: 94adc5425464076d834d775192c6210c00ae0009
+SHA256: 6534d39a5e970e573803c6b533006b91c8a5f2b05b661f5a7c311d69eada73b5
+
