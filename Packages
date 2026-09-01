@@ -1113,26 +1113,6 @@ SHA1: 1604151c55e6a092f83bdd38551a566bc96bb63f
 SHA256: f4bc09f4947c2eacd73c678b30cc693dcaff6f21e3430e9b60b7a74457857a61
 
 Package: jp.dcsyhi.culprit
-Name: Culprit 崩溃报告
-Depends: firmware (>=15.0)
-Description: 按进程分组查看崩溃报告，点开可看概要、崩溃栈、工程摘要和 .ips 全文。中文汉化：灰灰 与 MIAO。配色与排版参考 slog (Ethan Arbuckle, https://github.com/EthanArbuckle/slog)。
-Depiction: https://dcsyhi1998.github.io/depiction/Culprit.html
-SileoDepiction: https://dcsyhi1998.github.io/Sileodepiction/Culprit.json
-Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
-Maintainer: 灰灰 (汉化维护)
-Author: Dcsyhi
-Section: Utilities
-Translator: 灰灰 与 MIAO (=^･ω･^=)
-Architecture: iphoneos-arm64e
-Version: 1.0.0+rh7
-Installed-Size: 678
-Filename: debs/jp.dcsyhi.culprit_1.0.0+rh7_iphoneos-arm64e.deb
-Size: 694144
-MD5sum: bac801bbc55aa5eed71b72734038dec6
-SHA1: e960137b18ab76a79a501f083a66e1e7b18161d4
-SHA256: 9a472e85a231b4f026dceb0a30b672b7611cfd4446bc672465b07dd4afec9bbe
-
-Package: jp.dcsyhi.culprit
 Name: Culprit
 Depends: firmware (>=15.0)
 Description: 按进程分组查看崩溃报告，点开可看概要、崩溃栈、工程摘要和 .ips 全文。中文汉化：灰灰 与 MIAO。配色与排版参考 slog (Ethan Arbuckle, https://github.com/EthanArbuckle/slog)。
@@ -1149,4 +1129,3 @@ Size: 694112
 MD5sum: fda5a8ed0563d3b4117766fe223b7960
 SHA1: 0019d21138d25c4278137a22253723a7f332d8f3
 SHA256: 221a6f950b69f2c1da37e6a4e0229473d595eed49425676c4eb56007c12f9eee
-
