@@ -1143,10 +1143,10 @@ Section: Utilities
 Translator: 灰灰 与 MIAO (=^･ω･^=)
 Architecture: iphoneos-arm64e
 Version: 1.0.1-zh
-Installed-Size: 153
+Installed-Size: 154
 Filename: debs/jp.dcsyhi.culprit_1.0.1-zh_iphoneos-arm64e.deb
-Size: 156640
-MD5sum: bcbab32e1aeebcfa8d0222449c8fa114
-SHA1: d9a0ba20ac7c47ab681d66c958caabb4cf78821f
-SHA256: c385ab8740e22dda09b70d9ee55eec2b9faee047a210740a940fee654a94ad6b
+Size: 157104
+MD5sum: c8f2b763b5741e0bbd5e2a4e57439f56
+SHA1: d74b0316c1f31842838ca2f9f826470429c1b8dd
+SHA256: c5739b6ec5da98b750edd675642d7c79d0202f7cd7329fb41a7afe6588c3ff6d
 
