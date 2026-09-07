@@ -1150,3 +1150,20 @@ MD5sum: c8f2b763b5741e0bbd5e2a4e57439f56
 SHA1: d74b0316c1f31842838ca2f9f826470429c1b8dd
 SHA256: c5739b6ec5da98b750edd675642d7c79d0202f7cd7329fb41a7afe6588c3ff6d
 
+Package: com.doimty.urlschemeguard
+Name: URL Scheme Guard Core
+Description: Rule-driven URL scheme interception core. Blocks or redirects URL schemes globally or per calling app, enforced in both the calling app and the Launch Services daemon (lsd). Includes a Settings pane with installed-app and URL-scheme discovery.
+Maintainer: doimty
+Author: doimty
+Section: Tweaks
+Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate, preferenceloader
+Tag: purpose::uikit, compatible::ios14
+Architecture: iphoneos-arm64e
+Version: 0.5.5
+Installed-Size: 144
+Filename: debs/com.doimty.urlschemeguard_0.5.5_iphoneos-arm64e.deb
+Size: 146512
+MD5sum: 0ada586aa93c8834b2680a0f104f1284
+SHA1: 6e9697c2cedcf9ae0dcbdc38b8afcd209b005dc5
+SHA256: afc3cc6a0f19ac2bd3985cddc7d8cff17fc97558d82dd1982286c2a142ac6c6a
+
