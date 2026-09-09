@@ -1182,3 +1182,19 @@ Size: 258806
 MD5sum: 453d3bb503e9b6fb123c57f7ad49d943
 SHA1: 5687e5c610329e86989a260956f09f3b96ea3cc2
 SHA256: 9327be9c33c4400a224537569fa632bd82ee42d412b89fbe41bc51b2b80455bf
+
+Package: com.duopei.grabber
+Name: 多陪抢单助手
+Description: 自动轮询多陪抢单大厅，按条件接单推送
+Maintainer: 老大
+Author: 喵之人
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 4
+Filename: debs/com.duopei.grabber_1.0.0_iphoneos-arm64.deb
+Size: 3562
+MD5sum: a62984d40f85b9f2bb978f447bd2a79e
+SHA1: 127cbe1f03e77956e7d01e501193e9a45fbdd471
+SHA256: 5f9f5fea924800bccb3bec3985075d73bb3e55210e782ad8f7e01449443eb3ec
+
