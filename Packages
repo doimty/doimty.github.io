@@ -1214,3 +1214,20 @@ MD5sum: 53e2749ea09b5c790482743f5422197e
 SHA1: 0b3dbfb1bcc1cc3891f1fe119b1257b0d6c19223
 SHA256: 003820cd73e4e54096eae648f70304f7e29814c8b379f8ae2688e3eb483ccb91
 
+Package: com.doimty.norecentsdock
+Name: NoRecentsDock
+Description: 开启 iPad 风格浮动 Dock、关闭最近应用（Recents）、应用内不呼出 Dock。iOS 15-16 roothide，安装即生效。
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Maintainer: doimty
+Author: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Installed-Size: 5
+Filename: debs/com.doimty.norecentsdock_1.3.1_iphoneos-arm64e.deb
+Size: 4204
+MD5sum: a09f9e291bbafe0aa600db9cab1b50a5
+SHA1: eb108d280972f31482e0f8fbecc20d39bca1ce99
+SHA256: 425f6be65e66b4b3bce50cdd12681e1708cc41ba04f9402c9c819c04d4835cbc
+
