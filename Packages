@@ -1285,3 +1285,21 @@ MD5sum: 929aabc982599196659ec335e35240fe
 SHA1: c19de6b778951036a48590bb06e1b5a2f9788898
 SHA256: 0d48c9fc2c403c67a5e16997995380cd0393255e5d65460fc03e390c7320cf4c
 
+Package: com.imkpatil.homebarsizer
+Name: HomeBarSizer
+Description: 调节 iOS 底部 HomeBar 的宽度、高度和圆角。iOS 15+ roothide 适配版，设置即时生效。
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Maintainer: doimty
+Author: doimty
+Section: Tweaks
+Tag: supports::roothide
+Icon: https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.2.png
+Architecture: iphoneos-arm64e
+Version: 1.3.3
+Installed-Size: 16
+Filename: debs/com.imkpatil.homebarsizer_1.3.3_iphoneos-arm64e.deb
+Size: 16000
+MD5sum: 3d1e3b19826ef0b55e3760097e97ad69
+SHA1: 854185e5063659e8ceacfc297d9783e6a8addd8e
+SHA256: d27c26bc3728c924016fda95b2b204a7ea0688b058c3f04f81d0c4eab722d2fd
+
