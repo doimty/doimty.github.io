@@ -1303,3 +1303,19 @@ MD5sum: 3d1e3b19826ef0b55e3760097e97ad69
 SHA1: 854185e5063659e8ceacfc297d9783e6a8addd8e
 SHA256: d27c26bc3728c924016fda95b2b204a7ea0688b058c3f04f81d0c4eab722d2fd
 
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.38.2
+Installed-Size: 56
+Filename: debs/com.be-huge.insulation_0.1.38.2_iphoneos-arm64e.deb
+Size: 56768
+MD5sum: 63bd30bc98fe816f49eeac56f990bc5a
+SHA1: 0b3a8f56e2d869690689ea27881c46e4b54a6dbe
+SHA256: c8ff9f8bcb2f4222466f1b50053d28041f7204b1598f0230eeb80cee4fbedf0f
+
