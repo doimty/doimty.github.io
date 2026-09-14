@@ -599,7 +599,7 @@ Maintainer: 灰灰
 Author: 灰灰
 Section: Tweaks
 Tag: supports::roothide
-Icon: file:///Library/Application Support/HomeBarSizer/icon.png
+Icon: https://doimty.github.io/icons/com.imkpatil.homebarsizer.png
 Architecture: iphoneos-arm64e
 Version: 1.2
 Installed-Size: 160
