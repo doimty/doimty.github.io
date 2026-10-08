@@ -836,60 +836,6 @@ MD5sum: 90979fa9b0632642ea44197656b4c4aa
 SHA1: 7b6cc2423aeeecf3ded08831d32d219192263bf5
 SHA256: 3832b50328719159c474f931e02e9a4135662db9deef4bf9c2dd487ea3ee7248
 
-Package: com.udevs.vedette
-Name: Vedette
-Description: Monitor CPU hogging processes
-Maintainer: udevs
-Author: udevs
-Section: Tweaks
-Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
-Architecture: iphoneos-arm64e
-Version: 1.1.10
-Installed-Size: 576
-Filename: debs/com.udevs.vedette_1.1.10_iphoneos-arm64e.deb
-Size: 82818
-MD5sum: 886b60709339b016331fb53216cf6fba
-SHA1: c1023a40c30e4737035b284ab1b2f31a3d0e3455
-SHA256: d106aa921a09891fc9a322a78924e20d6020b9ffc1d71e979d1c7de83a3fdb48
-
-Package: com.udevs.vedette
-Name: Vedette
-Description: Monitor CPU hogging processes
-Maintainer: udevs
-Author: udevs
-Section: Tweaks
-Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
-Architecture: iphoneos-arm64e
-Version: 1.1.4
-Installed-Size: 504
-Filename: debs/com.udevs.vedette_1.1.4_iphoneos-arm64e.deb
-Size: 66540
-MD5sum: ffae11d135e0e9684327224867ea7ba3
-SHA1: 2fcc6258945611d12339c4a919c67503e67da9ed
-SHA256: 0fa2ec22f5f3f5c716629b2689d57c3e756608414dd4953a5820c1d18d89ce7d
-
-Package: com.udevs.vedette
-Name: Vedette
-Description: Monitor CPU hogging processes
-Maintainer: udevs
-Author: udevs
-Section: Tweaks
-Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
-Architecture: iphoneos-arm64e
-Version: 1.1.5
-Installed-Size: 504
-Filename: debs/com.udevs.vedette_1.1.5_iphoneos-arm64e.deb
-Size: 70092
-MD5sum: a68caab6f513cfdfec9f05c274cb2598
-SHA1: 2f87d760e4c5345c27d70f07cb06e9b47de952fc
-SHA256: d621c9d3ab1772cbcc43b06c2a4fdafa18b769abca1e5d53b39c8bedc6b1f694
-
 Package: com.yourepo.ibreak.dolbysoundeffect
 Section: System
 Maintainer: iBreak <ibreak2019@qq.com>
@@ -1336,4 +1282,44 @@ Size: 16914
 MD5sum: 48b3d2d60b43936d7d1e93efcf057e48
 SHA1: 6009207dca036e2c8fa7913944fa2127b20f2dc3
 SHA256: a126a981a550dd08e4845df8d6fbb37d5aa5d9e2c68a7ef22785070f9e508986
+
+Package: com.doimty.vedette
+Name: Vedette
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Maintainer: doimty
+Author: udevs
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Architecture: iphoneos-arm64
+Version: 1.1.12-2
+Installed-Size: 976
+Filename: debs/com.doimty.vedette_1.1.12-2_iphoneos-arm64.deb
+Size: 142420
+MD5sum: 6c61c2597a253b5a3fac3b7082409b0b
+SHA1: 7e1d129117e0bef2d3f01be2cd50d1ebc830e347
+SHA256: 4d8f224a55d63f7bfab305136c136072c6dae24faecbe517b5a45b1b8daac065
+
+Package: com.doimty.vedette
+Name: Vedette
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Maintainer: doimty
+Author: udevs
+Section: Tweaks
+Depends: firmware (>= 15.0), roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Architecture: iphoneos-arm64e
+Version: 1.1.12-2
+Installed-Size: 976
+Filename: debs/com.doimty.vedette_1.1.12-2_iphoneos-arm64e.deb
+Size: 139360
+MD5sum: 45adcf0ba07dfd8567fd33f3de6fc21a
+SHA1: 0a2e9ff81b3e9c05f4632eed4b4ecc7cd34a9c0b
+SHA256: 56dd609538a4cd520486e22499535102941e281876494a0d015e4d8ad2716e6b
 
