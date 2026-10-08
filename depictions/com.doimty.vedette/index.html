@@ -34,7 +34,7 @@
 <a class="button" href="../../debs/com.doimty.vedette_1.1.12-2_iphoneos-arm64.deb">Rootless · iphoneos-arm64</a>
 <a class="button" href="../../debs/com.doimty.vedette_1.1.12-2_iphoneos-arm64e.deb">RootHide · iphoneos-arm64e</a>
 </div>
-<p class="muted">依赖 PreferenceLoader、Substrate 兼容注入环境及 AltList；roothide 包另依赖 RootHide。nice2 已收到当前 RootHide 设备测试正常的反馈。rootless 新包经云构建、路径／依赖／签名检查，尚无独立真机验证。新增 SpringBoard 入口经生产解析器与模拟内核回归，未在用户设备上自动启用或调参。</p></section>
+<p class="muted">依赖 PreferenceLoader、Substrate 兼容注入环境及 AltList；roothide 包另依赖 RootHide。</p></section>
 <section><h2>使用边界</h2><p>nice 不是 CPU 百分比上限，也不是 Jetsam 保后台设置。过低 CPU 限额或激进优先级可能增加延迟；不承诺耗电或流畅度收益。不要同时使用其他工具反复改写相同目标的 nice。</p><p>卸载前会检查 nice 恢复结果。恢复失败可能阻止卸载，应先处理原因，不要直接删除恢复记录。原 CPU 批量恢复的既有边界没有在本次版本中扩大保证。</p></section>
 <footer>原作者：udevs · 维护与功能扩展：doimty<br>
 代码按 GPLv3 发布，具体声明见源码。<a href="https://github.com/doimty/vedette/tree/1d35e7a4a6f8b0f904513491ade7899ee62faf2a">源码与构建说明</a> · <a href="../../sources/vedette-1.1.12-2.tar.gz">此版本对应源码归档</a></footer>
