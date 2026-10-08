@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Vedette 1.1.12 · Doimty Repo</title>
+<meta name="description" content="按应用与守护进程独立管理 CPU 限制和 nice 调度优先级，支持 rootless 与 roothide。">
+<style>
+:root{color-scheme:light dark;--bg:#f4f5f7;--card:#fff;--fg:#18212b;--muted:#606b78;--accent:#286852;--line:#dde2e7}
+@media(prefers-color-scheme:dark){:root{--bg:#10151a;--card:#1b2229;--fg:#e8edf3;--muted:#a2aebb;--accent:#87d0b0;--line:#35414a}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:700px;margin:0 auto;padding:28px 20px 50px}header{display:flex;gap:18px;align-items:center;margin:10px 0 26px}header img{width:76px;height:76px;border-radius:18px}h1{font-size:30px;line-height:1.2;margin:0 0 8px}h2{font-size:19px;margin:0 0 12px}p{margin:10px 0}a{color:var(--accent);text-underline-offset:3px}small,.muted{color:var(--muted)}section{padding:22px;background:var(--card);border:1px solid var(--line);border-radius:18px;margin:16px 0}ul{padding-left:21px;margin-bottom:0}.downloads{display:grid;gap:10px}.button{display:block;padding:12px 16px;border:1px solid var(--line);border-radius:11px;text-decoration:none;font-weight:600}code{font-size:.88em;overflow-wrap:anywhere}footer{font-size:14px;color:var(--muted);padding-top:12px}
+</style>
+</head>
+<body><main>
+<a href="../../">Doimty's Repo</a>
+<header><img src="../../icons/com.doimty.vedette.png" alt="Vedette 图标"><div><h1>Vedette</h1><small>1.1.12-2 · iOS 15 及以上</small></div></header>
+<p>按应用与守护进程独立管理 <strong>CPU 限制</strong>和 <strong>nice 调度优先级</strong>，保留原生设置界面。</p>
+<p class="muted" lang="en">Per-app and per-daemon CPU limits with independent nice scheduling priority controls.</p>
+<section><h2>两种控制，各自独立</h2><ul>
+<li><strong>CPU：</strong>按目标配置 CPU 限额与超限处理方式，支持限速或终止。</li>
+<li><strong>nice：</strong>独立开关与 −20～20 数值选择。数值越小，调度优先级越高；默认不干预，可以只调 nice 而不启用 CPU 限制。</li>
+<li><strong>恢复：</strong>首次记录 nice 原值，关闭或删除规则时尝试恢复；失败保留记录，外部修改冲突不强行覆盖。</li>
+<li><strong>反馈：</strong>显示最近执行回执，支持手动检查／重试。配置已启用不等于实时内核状态。</li>
+</ul></section>
+<section><h2>本次更新</h2><ul>
+<li>正式版 1.1.12-2，版本顺序高于此前的 nice 测试版与初次正式构建。</li>
+<li>放开守护进程列表的 SpringBoard 入口，只匹配系统完整路径；同名程序不会套用该规则。默认关闭，关键进程确认保留。</li>
+<li>同时提供 rootless 与 roothide 两种安装包，不可混装。</li>
+<li>保留 nice2 的工具签名权限修复、CPU／nice 执行逻辑及界面。</li>
+<li>更新包描述与本站介绍页，下架源内旧 Vedette 版本。</li>
+</ul></section>
+<section><h2>下载与兼容性</h2><p>优先在包管理器中刷新本源后安装，由客户端按环境选择对应架构。</p>
+<div class="downloads">
+<a class="button" href="../../debs/com.doimty.vedette_1.1.12-2_iphoneos-arm64.deb">Rootless · iphoneos-arm64</a>
+<a class="button" href="../../debs/com.doimty.vedette_1.1.12-2_iphoneos-arm64e.deb">RootHide · iphoneos-arm64e</a>
+</div>
+<p class="muted">依赖 PreferenceLoader、Substrate 兼容注入环境及 AltList；roothide 包另依赖 RootHide。nice2 已收到当前 RootHide 设备测试正常的反馈。rootless 新包经云构建、路径／依赖／签名检查，尚无独立真机验证。新增 SpringBoard 入口经生产解析器与模拟内核回归，未在用户设备上自动启用或调参。</p></section>
+<section><h2>使用边界</h2><p>nice 不是 CPU 百分比上限，也不是 Jetsam 保后台设置。过低 CPU 限额或激进优先级可能增加延迟；不承诺耗电或流畅度收益。不要同时使用其他工具反复改写相同目标的 nice。</p><p>卸载前会检查 nice 恢复结果。恢复失败可能阻止卸载，应先处理原因，不要直接删除恢复记录。原 CPU 批量恢复的既有边界没有在本次版本中扩大保证。</p></section>
+<footer>原作者：udevs · 维护与功能扩展：doimty<br>
+代码按 GPLv3 发布，具体声明见源码。<a href="https://github.com/doimty/vedette/tree/1d35e7a4a6f8b0f904513491ade7899ee62faf2a">源码与构建说明</a> · <a href="../../sources/vedette-1.1.12-2.tar.gz">此版本对应源码归档</a></footer>
+</main></body></html>
