@@ -1295,13 +1295,13 @@ Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000), co
 Icon: https://doimty.github.io/icons/com.doimty.vedette.png
 Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
 Architecture: iphoneos-arm64
-Version: 1.1.12-2
+Version: 1.1.12-3
 Installed-Size: 976
-Filename: debs/com.doimty.vedette_1.1.12-2_iphoneos-arm64.deb
-Size: 142420
-MD5sum: 6c61c2597a253b5a3fac3b7082409b0b
-SHA1: 7e1d129117e0bef2d3f01be2cd50d1ebc830e347
-SHA256: 4d8f224a55d63f7bfab305136c136072c6dae24faecbe517b5a45b1b8daac065
+Filename: debs/com.doimty.vedette_1.1.12-3_iphoneos-arm64.deb
+Size: 142600
+MD5sum: e8bf9c465efafdf60a2be386d45e4aa2
+SHA1: 5f7d39ffa048c80216a307ad48baa7cb031002af
+SHA256: 5432717afbf0cf3a50111ed93ea15a10d4a0ecce96b75e0c594a2e28577e1c09
 
 Package: com.doimty.vedette
 Name: Vedette
@@ -1315,11 +1315,11 @@ Depends: firmware (>= 15.0), roothide, preferenceloader, mobilesubstrate (>= 0.9
 Icon: https://doimty.github.io/icons/com.doimty.vedette.png
 Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
 Architecture: iphoneos-arm64e
-Version: 1.1.12-2
+Version: 1.1.12-3
 Installed-Size: 976
-Filename: debs/com.doimty.vedette_1.1.12-2_iphoneos-arm64e.deb
-Size: 139360
-MD5sum: 45adcf0ba07dfd8567fd33f3de6fc21a
-SHA1: 0a2e9ff81b3e9c05f4632eed4b4ecc7cd34a9c0b
-SHA256: 56dd609538a4cd520486e22499535102941e281876494a0d015e4d8ad2716e6b
+Filename: debs/com.doimty.vedette_1.1.12-3_iphoneos-arm64e.deb
+Size: 139760
+MD5sum: c22ca54ba4ebc925b772d800f95ec338
+SHA1: b5f67c0282013cae7c8adb4baed05c2e45dfd32d
+SHA256: 7260ea721e499d8ef3d8557b3935a02da91eef081b4b57e4d80b8a152a8cc78e
 
