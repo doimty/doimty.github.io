@@ -13,7 +13,7 @@
 </head>
 <body><main>
 <a href="../../">Doimty's Repo</a>
-<header><img src="../../icons/com.doimty.vedette.png" alt="Vedette 图标"><div><h1>Vedette</h1><small>1.1.12-2 · iOS 15 及以上</small></div></header>
+<header><img src="../../icons/com.doimty.vedette.png" alt="Vedette 图标"><div><h1>Vedette</h1><small>1.1.12-3 · iOS 15 及以上</small></div></header>
 <p>按应用与守护进程独立管理 <strong>CPU 限制</strong>和 <strong>nice 调度优先级</strong>，保留原生设置界面。</p>
 <p class="muted" lang="en">Per-app and per-daemon CPU limits with independent nice scheduling priority controls.</p>
 <section><h2>两种控制，各自独立</h2><ul>
@@ -23,7 +23,8 @@
 <li><strong>反馈：</strong>显示最近执行回执，支持手动检查／重试。配置已启用不等于实时内核状态。</li>
 </ul></section>
 <section><h2>本次更新</h2><ul>
-<li>正式版 1.1.12-2，版本顺序高于此前的 nice 测试版与初次正式构建。</li>
+<li>正式版 1.1.12-3，版本顺序高于此前的 nice 测试版与初次正式构建。</li>
+<li>卸载与安装收尾改为尽力恢复：nice 恢复失败只提示，不再阻塞包管理。</li>
 <li>放开守护进程列表的 SpringBoard 入口，只匹配系统完整路径；同名程序不会套用该规则。默认关闭，关键进程确认保留。</li>
 <li>同时提供 rootless 与 roothide 两种安装包，不可混装。</li>
 <li>保留 nice2 的工具签名权限修复、CPU／nice 执行逻辑及界面。</li>
@@ -31,11 +32,11 @@
 </ul></section>
 <section><h2>下载与兼容性</h2><p>优先在包管理器中刷新本源后安装，由客户端按环境选择对应架构。</p>
 <div class="downloads">
-<a class="button" href="../../debs/com.doimty.vedette_1.1.12-2_iphoneos-arm64.deb">Rootless · iphoneos-arm64</a>
-<a class="button" href="../../debs/com.doimty.vedette_1.1.12-2_iphoneos-arm64e.deb">RootHide · iphoneos-arm64e</a>
+<a class="button" href="../../debs/com.doimty.vedette_1.1.12-3_iphoneos-arm64.deb">Rootless · iphoneos-arm64</a>
+<a class="button" href="../../debs/com.doimty.vedette_1.1.12-3_iphoneos-arm64e.deb">RootHide · iphoneos-arm64e</a>
 </div>
 <p class="muted">依赖 PreferenceLoader、Substrate 兼容注入环境及 AltList；roothide 包另依赖 RootHide。</p></section>
-<section><h2>使用边界</h2><p>nice 不是 CPU 百分比上限，也不是 Jetsam 保后台设置。过低 CPU 限额或激进优先级可能增加延迟；不承诺耗电或流畅度收益。不要同时使用其他工具反复改写相同目标的 nice。</p><p>卸载前会检查 nice 恢复结果。恢复失败可能阻止卸载，应先处理原因，不要直接删除恢复记录。原 CPU 批量恢复的既有边界没有在本次版本中扩大保证。</p></section>
+<section><h2>使用边界</h2><p>nice 不是 CPU 百分比上限，也不是 Jetsam 保后台设置。过低 CPU 限额或激进优先级可能增加延迟；不承诺耗电或流畅度收益。不要同时使用其他工具反复改写相同目标的 nice。</p><p>卸载前会尽力把目标交还系统；即使这一步失败也只提示，不阻塞卸载。内核 nice 值随进程退出或重启自然失效。原值日志会保留，可在需要时检查。原 CPU 批量恢复的既有边界没有在本次版本中扩大保证。</p></section>
 <footer>原作者：udevs · 维护与功能扩展：doimty<br>
-代码按 GPLv3 发布，具体声明见源码。<a href="https://github.com/doimty/vedette/tree/1d35e7a4a6f8b0f904513491ade7899ee62faf2a">源码与构建说明</a> · <a href="../../sources/vedette-1.1.12-2.tar.gz">此版本对应源码归档</a></footer>
+代码按 GPLv3 发布，具体声明见源码。<a href="https://github.com/doimty/vedette/tree/788f43bcb17a2c3890ed8bdeea3f1a97660e13c7">源码与构建说明</a> · <a href="../../sources/vedette-1.1.12-3.tar.gz">此版本对应源码归档</a></footer>
 </main></body></html>
