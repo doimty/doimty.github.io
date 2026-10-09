@@ -1340,3 +1340,40 @@ MD5sum: cbdfcb8ac824448d85292e2cffee3da0
 SHA1: 50251453526062313172247aedeb572d71e3e18d
 SHA256: 8c52142a542fc5bdf8d9e4f8a92732f9198ad041dc28e5294bc0fa8df1363dc9
 
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Maintainer: doimty
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.14-1
+Installed-Size: 108
+Tag: supports::roothide
+Depiction: https://doimty.github.io/depictions/com.doimty.promotion/
+Filename: debs/com.doimty.promotion_1.0.14-1_iphoneos-arm64e.deb
+Size: 19460
+MD5sum: 4104e1df96fd208defcebf7a065634eb
+SHA1: 6753b547c235583176256c2bdcd0d2c4e21b09df
+SHA256: b96bfa462178b034897400cec04cdbd334a27453f8582f6738de0dc6e7c741ff
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Maintainer: doimty
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.14-1
+Installed-Size: 236
+Depiction: https://doimty.github.io/depictions/com.doimty.promotion/
+Filename: debs/com.doimty.promotion_1.0.14-1_iphoneos-arm64.deb
+Size: 27900
+MD5sum: f1785e4cd8c3cb23b9bd2930c3163901
+SHA1: d7938042544ac91bc6cf5140f3cb671cf11c873e
+SHA256: 60ba8d1f216b55f4e7ae9592ec3f5faa62a0cf40fb445696d083fd42876f5b63
+
