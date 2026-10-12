@@ -18,6 +18,10 @@ Put `.deb` files into `debs/`, then run:
 
 Commit and push generated `Packages*` and `Release` files.
 
+## Index overrides（条目固化）
+
+人工维护的字段（`Depiction`、`Icon` 等）登记在 `scripts/index-overrides.json`，由 `update-repo.py` 在重建时自动应用；值 `null` 表示删除该字段。它保证 `update-repo.sh` 在任何时候重跑的输出与已发布内容一致，不会丢掉自定义字段。
+
 ## 源码发布边界
 
 此仓库用于公开软件源文件，不发布私有插件仓库的源码、源码归档或私有构建入口。安装包与私有源码分开维护。

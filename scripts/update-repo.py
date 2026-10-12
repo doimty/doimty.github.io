@@ -1,8 +1,26 @@
 #!/usr/bin/env python3
-import hashlib, os, pathlib, subprocess, tarfile, io, lzma, gzip, time
+import hashlib, json, os, pathlib, subprocess, tarfile, io, lzma, gzip, time
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DEBS = ROOT / 'debs'
 PKG = ROOT / 'Packages'
+OVERRIDES_FILE = ROOT / 'scripts' / 'index-overrides.json'
+OVERRIDES = json.loads(OVERRIDES_FILE.read_text()) if OVERRIDES_FILE.exists() else {}
+
+def apply_overrides(control: str, rel: str) -> str:
+    spec = OVERRIDES.get(rel)
+    if not spec:
+        return control
+    lines = control.split('\n')
+    for key, value in spec.items():
+        idx = next((i for i, l in enumerate(lines) if l.startswith(key + ':')), None)
+        if value is None:
+            if idx is not None:
+                lines.pop(idx)
+        elif idx is not None:
+            lines[idx] = f'{key}: {value}'
+        else:
+            lines.append(f'{key}: {value}')
+    return '\n'.join(lines)
 
 def ar_members(data: bytes):
     if not data.startswith(b'!<arch>\n'):
@@ -39,6 +57,7 @@ for deb in sorted(DEBS.glob('*.deb')):
     data = deb.read_bytes()
     control = control_from_deb(deb).rstrip('\n')
     rel = deb.relative_to(ROOT).as_posix()
+    control = apply_overrides(control, rel)
     entry = control + '\n'
     entry += f'Filename: {rel}\n'
     entry += f'Size: {len(data)}\n'

@@ -110,10 +110,16 @@ class PublicationBoundary(unittest.TestCase):
     def test_metadata_and_scripts_not_uploaded(self):
         (self.root / 'scripts').mkdir()
         (self.root / 'scripts' / 'tool.py').write_text('print("maintenance")')
+        (self.root / 'scripts' / 'index-overrides.json').write_text('{}')
         (self.root / 'README.md').write_text('maintenance notes')
         self.run_stage()
         self.assertFalse((self.output / 'scripts').exists())
         self.assertFalse((self.output / 'README.md').exists())
+
+    def test_scripts_unknown_type_rejected(self):
+        (self.root / 'scripts').mkdir()
+        (self.root / 'scripts' / 'notes.txt').write_text('maintenance')
+        self.rejected('unapproved repository file')
 
 
 if __name__ == '__main__':

@@ -392,6 +392,76 @@ MD5sum: 892445d3a04ed37d1c0a14c185720770
 SHA1: 7f8782b3e81f539317e2ff718785a1fb7dd05ec2
 SHA256: ed79b091790349088dfe2575791892c6d0646cbb825a61ef7d156682a15db88e
 
+Package: com.doimty.daynightswitch
+Name: DayNightSwitch
+Depends: firmware (>= 14.0), mobilesubstrate
+Provides: de.finngaida.daynightswitch
+Conflicts: de.finngaida.daynightswitch
+Replaces: de.finngaida.daynightswitch
+Description: Add some style to your switches
+Maintainer: doimty
+Author: doimty
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Installed-Size: 600
+Filename: debs/com.doimty.daynightswitch_1.2.4_iphoneos-arm64.deb
+Size: 74440
+MD5sum: 48b6d278d982e7a2cac9855598a0482a
+SHA1: 94adc5425464076d834d775192c6210c00ae0009
+SHA256: 6534d39a5e970e573803c6b533006b91c8a5f2b05b661f5a7c311d69eada73b5
+
+Package: com.doimty.daynightswitch
+Name: DayNightSwitch
+Depends: firmware (>= 14.0), mobilesubstrate
+Provides: de.finngaida.daynightswitch
+Conflicts: de.finngaida.daynightswitch
+Replaces: de.finngaida.daynightswitch
+Description: Add some style to your switches
+Maintainer: doimty
+Author: doimty
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Installed-Size: 600
+Filename: debs/com.doimty.daynightswitch_1.2.4_iphoneos-arm64e.deb
+Size: 72652
+MD5sum: da4a60af591b3b17dc37817edefdbd27
+SHA1: 1604151c55e6a092f83bdd38551a566bc96bb63f
+SHA256: f4bc09f4947c2eacd73c678b30cc693dcaff6f21e3430e9b60b7a74457857a61
+
+Package: com.doimty.fiona
+Name: Fiona
+Author: doimty
+Maintainer: doimty
+Description: 锁屏时保持 WiFi 连接。无开关，安装即生效；
+Depends: firmware (>= 15.0)
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.2
+Installed-Size: 168
+Filename: debs/com.doimty.fiona_0.2_iphoneos-arm64.deb
+Size: 2964
+MD5sum: 71e159d9a3fba32ac70642a1dbf5ad58
+SHA1: 5dda7589eca88d8b8feef0516efe8826b7ecda65
+SHA256: 792c871b02c902e8e7a6255f3366f101f75e936bd982c947bb4b26e0be4416f9
+
+Package: com.doimty.fiona
+Name: Fiona
+Author: doimty
+Maintainer: doimty
+Description: 锁屏时保持 WiFi 连接。无开关，安装即生效；
+Depends: firmware (>= 15.0)
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.2
+Installed-Size: 168
+Filename: debs/com.doimty.fiona_0.2_iphoneos-arm64e.deb
+Size: 2898
+MD5sum: 565eaf9b65d83989ffb9fadfc75e2af9
+SHA1: bd7a960d3e1e775624e95344e1049c7b0eba0c77
+SHA256: afd456d7672c7f40be99dd5c729a8fcaaeaf8f0a3a42d1d2c9b44b7a999235b7
+
 Package: com.doimty.fixrepairsystempower
 Section: Tweaks
 Maintainer: doimty
@@ -455,6 +525,72 @@ MD5sum: ad8c7e779ae5d573f1444a7171b8fcf4
 SHA1: 6f9e870202eb73843786497b1c74d59e158c5200
 SHA256: a0587ca5b7b122054bb6f73d2bc785aa6dcac52cccbc9c13a857ddcd490ef72c
 
+Package: com.doimty.norecentsdock
+Name: NoRecentsDock
+Description: 开启 iPad 风格浮动 Dock、关闭最近应用（Recents）、应用内不呼出 Dock。iOS 15-16 roothide，安装即生效。
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Maintainer: 灰灰
+Author: 灰灰
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Installed-Size: 72
+Filename: debs/com.doimty.norecentsdock_1.3.0_iphoneos-arm64e.deb
+Size: 4220
+MD5sum: 53e2749ea09b5c790482743f5422197e
+SHA1: 0b3dbfb1bcc1cc3891f1fe119b1257b0d6c19223
+SHA256: 003820cd73e4e54096eae648f70304f7e29814c8b379f8ae2688e3eb483ccb91
+
+Package: com.doimty.norecentsdock
+Name: NoRecentsDock
+Description: 开启 iPad 风格浮动 Dock、关闭最近应用（Recents）、应用内不呼出 Dock。iOS 15-16 roothide，安装即生效。
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Maintainer: doimty
+Author: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Installed-Size: 72
+Filename: debs/com.doimty.norecentsdock_1.3.1_iphoneos-arm64e.deb
+Size: 4204
+MD5sum: a09f9e291bbafe0aa600db9cab1b50a5
+SHA1: eb108d280972f31482e0f8fbecc20d39bca1ce99
+SHA256: 425f6be65e66b4b3bce50cdd12681e1708cc41ba04f9402c9c819c04d4835cbc
+
+Package: com.doimty.nrmanager
+Name: NR Manager
+Depends: mobilesubstrate, com.opa334.ccsupport
+Description: Select NR bands and view live serving status in Control Center
+Maintainer: doimty
+Author: doimty
+Section: Control Center (Modules)
+Architecture: iphoneos-arm64
+Version: 1.7.5
+Installed-Size: 1720
+Filename: debs/com.doimty.nrmanager_1.7.5_iphoneos-arm64.deb
+Size: 258806
+MD5sum: 453d3bb503e9b6fb123c57f7ad49d943
+SHA1: 5687e5c610329e86989a260956f09f3b96ea3cc2
+SHA256: 9327be9c33c4400a224537569fa632bd82ee42d412b89fbe41bc51b2b80455bf
+
+Package: com.doimty.nrmanager
+Name: NR Manager
+Depends: mobilesubstrate, com.opa334.ccsupport
+Description: Select NR bands and view live serving status in Control Center
+Maintainer: doimty
+Author: doimty
+Section: Control Center (Modules)
+Architecture: iphoneos-arm64e
+Version: 1.7.5
+Installed-Size: 1688
+Filename: debs/com.doimty.nrmanager_1.7.5_iphoneos-arm64e.deb
+Size: 274710
+MD5sum: 617b20edf8006a62252444fa407bdd5a
+SHA1: 06cada6410345bbf2fb6658afe4c8d2399eca816
+SHA256: 44ef9c90d0230552eea222527348292e51ed2fc23f1119bcfbd58f672e919289
+
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
 Author: doimty
@@ -488,6 +624,77 @@ Size: 16586
 MD5sum: 5a0ee7e408dd8a65580c06ddf0be4c13
 SHA1: b2698740b46b77ab64d60d16e6044716b3a3adba
 SHA256: 440bf37bc3cdd0ccc5a0c823e861a4c514f4423e91dc2649ebb2e801c3596900
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: Force global 120Hz ProMotion on iPhone 13 Pro+. Bypasses the 80Hz system cap and maintains 120Hz in apps that block tweak injection via a persistent keepalive DisplayLink.
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64
+Version: 1.0.13
+Installed-Size: 108
+Filename: debs/com.doimty.promotion_1.0.13_iphoneos-arm64.deb
+Size: 16914
+MD5sum: 48b3d2d60b43936d7d1e93efcf057e48
+SHA1: 6009207dca036e2c8fa7913944fa2127b20f2dc3
+SHA256: a126a981a550dd08e4845df8d6fbb37d5aa5d9e2c68a7ef22785070f9e508986
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: Force global 120Hz ProMotion on iPhone 13 Pro+. Bypasses the 80Hz system cap and maintains 120Hz in apps that block tweak injection via a persistent keepalive DisplayLink.
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.13
+Installed-Size: 108
+Filename: debs/com.doimty.promotion_1.0.13_iphoneos-arm64e.deb
+Size: 16850
+MD5sum: 2f7ae456d566fc4741a736843f1c4d4d
+SHA1: b4de3e6c0921d1604e910c76820a7933add0ac6b
+SHA256: 7872a0928964eaed12a8ca3b6743580015c894296ba4979ca3b0e4a574499b64
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Maintainer: doimty
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.14-1
+Installed-Size: 236
+Depiction: https://doimty.github.io/depictions/com.doimty.promotion/
+Filename: debs/com.doimty.promotion_1.0.14-1_iphoneos-arm64.deb
+Size: 27900
+MD5sum: f1785e4cd8c3cb23b9bd2930c3163901
+SHA1: d7938042544ac91bc6cf5140f3cb671cf11c873e
+SHA256: 60ba8d1f216b55f4e7ae9592ec3f5faa62a0cf40fb445696d083fd42876f5b63
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Maintainer: doimty
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.14-1
+Installed-Size: 108
+Tag: supports::roothide
+Depiction: https://doimty.github.io/depictions/com.doimty.promotion/
+Filename: debs/com.doimty.promotion_1.0.14-1_iphoneos-arm64e.deb
+Size: 19460
+MD5sum: 4104e1df96fd208defcebf7a065634eb
+SHA1: 6753b547c235583176256c2bdcd0d2c4e21b09df
+SHA256: b96bfa462178b034897400cec04cdbd334a27453f8582f6738de0dc6e7c741ff
 
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
@@ -557,6 +764,80 @@ MD5sum: 357609839a3d5471004855e357463729
 SHA1: 4f643641c669f3ee781f673acfddf2b00fafb2c1
 SHA256: 163356804400a7144f7794823f357648bb8a103d3ecebe93ce35193ff223af68
 
+Package: com.doimty.urlschemeguard
+Name: URL Scheme Guard Core
+Description: Rule-driven URL scheme interception core. Blocks or redirects URL schemes globally or per calling app, enforced in both the calling app and the Launch Services daemon (lsd). Includes a Settings pane with installed-app and URL-scheme discovery.
+Maintainer: doimty
+Author: doimty
+Section: Tweaks
+Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate, preferenceloader
+Tag: purpose::uikit, compatible::ios14
+Architecture: iphoneos-arm64e
+Version: 0.5.5
+Installed-Size: 1016
+Filename: debs/com.doimty.urlschemeguard_0.5.5_iphoneos-arm64e.deb
+Size: 146512
+MD5sum: 0ada586aa93c8834b2680a0f104f1284
+SHA1: 6e9697c2cedcf9ae0dcbdc38b8afcd209b005dc5
+SHA256: afc3cc6a0f19ac2bd3985cddc7d8cff17fc97558d82dd1982286c2a142ac6c6a
+
+Package: com.doimty.urlschemeguard
+Name: URL Scheme Guard Core
+Description: Rule-driven URL scheme interception core. Blocks or redirects URL schemes globally or per calling app, enforced in both the calling app and the Launch Services daemon (lsd). Includes a Settings pane with installed-app and URL-scheme discovery.
+Maintainer: doimty
+Author: doimty
+Section: Tweaks
+Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate, preferenceloader
+Tag: purpose::uikit, compatible::ios14
+Architecture: iphoneos-arm64e
+Version: 0.5.6
+Installed-Size: 1016
+Filename: debs/com.doimty.urlschemeguard_0.5.6_iphoneos-arm64e.deb
+Size: 146816
+MD5sum: 03bf854a6ff3f90aa2d90db8f34d92fa
+SHA1: c303be13e5755cd17599bf2dfbca8b14537e0691
+SHA256: 797511479b113b6ad1e345a713d3aa02ffbb2fc54b0aa963ad351fd5a436fa77
+
+Package: com.doimty.vedette
+Name: Vedette
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Maintainer: doimty
+Author: udevs
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Architecture: iphoneos-arm64
+Version: 1.1.12-3
+Installed-Size: 976
+Filename: debs/com.doimty.vedette_1.1.12-3_iphoneos-arm64.deb
+Size: 142600
+MD5sum: e8bf9c465efafdf60a2be386d45e4aa2
+SHA1: 5f7d39ffa048c80216a307ad48baa7cb031002af
+SHA256: 5432717afbf0cf3a50111ed93ea15a10d4a0ecce96b75e0c594a2e28577e1c09
+
+Package: com.doimty.vedette
+Name: Vedette
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Maintainer: doimty
+Author: udevs
+Section: Tweaks
+Depends: firmware (>= 15.0), roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Architecture: iphoneos-arm64e
+Version: 1.1.12-3
+Installed-Size: 976
+Filename: debs/com.doimty.vedette_1.1.12-3_iphoneos-arm64e.deb
+Size: 139760
+MD5sum: c22ca54ba4ebc925b772d800f95ec338
+SHA1: b5f67c0282013cae7c8adb4baed05c2e45dfd32d
+SHA256: 7260ea721e499d8ef3d8557b3935a02da91eef081b4b57e4d80b8a152a8cc78e
+
 Package: com.eliassfeir.smartnetwork
 Section: Tweaks
 Installed-Size: 1272
@@ -608,6 +889,78 @@ Size: 9334
 MD5sum: 61010d81f6c4a4537c2f59c59e9b91fb
 SHA1: 19f36100810ca085768b6c2eb11f6ade072ca902
 SHA256: dd0478a8ecb83138e1c0f373bd26199646b00acd50ff9891347d0d964a0c23bf
+
+Package: com.imkpatil.homebarsizer
+Name: HomeBarSizer
+Description: 调节 iOS 底部 HomeBar 的宽度、高度和圆角。iOS 15+ roothide 适配版，设置即时生效。
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Maintainer: doimty
+Author: doimty
+Section: Tweaks
+Tag: supports::roothide
+Icon: https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.1.png
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Installed-Size: 172
+Filename: debs/com.imkpatil.homebarsizer_1.3.1_iphoneos-arm64e.deb
+Size: 15262
+MD5sum: bfae9a0d680caf37badb24faf5384118
+SHA1: b18ce40a1a376d5b23dfed8ed1400f5d5e9c0ef5
+SHA256: 67dcf2684aa6338e92f989fbbaf5c01102a33c8946a612b8267104e64b5123e2
+
+Package: com.imkpatil.homebarsizer
+Name: HomeBarSizer
+Description: 调节 iOS 底部 HomeBar 的宽度、高度和圆角。iOS 15+ roothide 适配版，设置即时生效。
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Maintainer: doimty
+Author: doimty
+Section: Tweaks
+Tag: supports::roothide
+Icon: https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.2.png
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Installed-Size: 172
+Filename: debs/com.imkpatil.homebarsizer_1.3.2_iphoneos-arm64e.deb
+Size: 15546
+MD5sum: 929aabc982599196659ec335e35240fe
+SHA1: c19de6b778951036a48590bb06e1b5a2f9788898
+SHA256: 0d48c9fc2c403c67a5e16997995380cd0393255e5d65460fc03e390c7320cf4c
+
+Package: com.imkpatil.homebarsizer
+Name: HomeBarSizer
+Description: 调节 iOS 底部 HomeBar 的宽度、高度和圆角。iOS 15+ roothide 适配版，设置即时生效。
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Maintainer: doimty
+Author: doimty
+Section: Tweaks
+Tag: supports::roothide
+Icon: https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.2.png
+Architecture: iphoneos-arm64e
+Version: 1.3.3
+Installed-Size: 172
+Filename: debs/com.imkpatil.homebarsizer_1.3.3_iphoneos-arm64e.deb
+Size: 16000
+MD5sum: 3d1e3b19826ef0b55e3760097e97ad69
+SHA1: 854185e5063659e8ceacfc297d9783e6a8addd8e
+SHA256: d27c26bc3728c924016fda95b2b204a7ea0688b058c3f04f81d0c4eab722d2fd
+
+Package: com.imkpatil.homebarsizer
+Name: HomeBarSizer
+Description: 调节 iOS 底部 HomeBar 的宽度、高度和圆角。iOS 15+ roothide 适配版，设置即时生效。
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Maintainer: doimty
+Author: doimty
+Section: Tweaks
+Tag: supports::roothide
+Icon: https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.1.png
+Architecture: iphoneos-arm64e
+Version: 1.3
+Installed-Size: 164
+Filename: debs/com.imkpatil.homebarsizer_1.3_iphoneos-arm64e.deb
+Size: 9678
+MD5sum: 47f679a88f9d2a6b24d4cec4c2ece712
+SHA1: 0e1439fad22c5628e438e947c069f0ea78792175
+SHA256: 6a14aa0ba41b3e92eedbab86781b15500ccf874b0a881d075104d41209f026da
 
 Package: com.jontelang.bigshotsnapper3plugin
 Section: Tweaks
@@ -693,6 +1046,23 @@ Size: 2792
 MD5sum: 36063cd822126adf3dbdde4148a62f28
 SHA1: 10db444f4f0eb761c4e33201efd16988ec7728ac
 SHA256: 2262fc89ad04fc60d477b6fb9ddbe7dee934413bab062f5597fed7c7b2286e2d
+
+Package: com.ps.letmeblock
+Name: LetMeBlock
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.libsandy (>= 1.1.6-4)
+Description: Make mDNSResponder care more about /etc/hosts
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Depiction: https://doimty.github.io/depictions/com.ps.letmeblock/
+Architecture: iphoneos-arm64e
+Version: 1.3.0-2
+Installed-Size: 64
+Filename: debs/com.ps.letmeblock_1.3.0-2_iphoneos-arm64e.deb
+Size: 4908
+MD5sum: cbdfcb8ac824448d85292e2cffee3da0
+SHA1: 50251453526062313172247aedeb572d71e3e18d
+SHA256: 8c52142a542fc5bdf8d9e4f8a92732f9198ad041dc28e5294bc0fa8df1363dc9
 
 Package: com.ps.letmeblock
 Name: LetMeBlock
@@ -888,6 +1258,44 @@ MD5sum: 4ed1dc3f310f7a70d921db2e1ccdaccb
 SHA1: 52af1f0a33cae8e24906733da07bfac5a0f0f70a
 SHA256: 620d1a106b5fadc23034bccfd4e15c7c156f88566e335829c4cee7835272c502
 
+Package: jp.dcsyhi.culprit
+Name: Culprit
+Depends: firmware (>=15.0)
+Description: 按进程分组查看崩溃报告，点开可看概要、崩溃栈、工程摘要和 .ips 全文。中文汉化：灰灰 与 MIAO。配色与排版参考 slog (Ethan Arbuckle, https://github.com/EthanArbuckle/slog)。
+Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
+Maintainer: 灰灰 (汉化维护)
+Author: Dcsyhi
+Section: Utilities
+Architecture: iphoneos-arm64e
+Version: 1.0.0-zh
+Installed-Size: 1172
+Translator: 灰灰 与 MIAO (=^･ω･^=)
+Filename: debs/jp.dcsyhi.culprit_1.0.0-zh_iphoneos-arm64e.deb
+Size: 694112
+MD5sum: fda5a8ed0563d3b4117766fe223b7960
+SHA1: 0019d21138d25c4278137a22253723a7f332d8f3
+SHA256: 221a6f950b69f2c1da37e6a4e0229473d595eed49425676c4eb56007c12f9eee
+
+Package: jp.dcsyhi.culprit
+Name: Culprit
+Depends: firmware (>=15.0)
+Description: 按进程分组查看崩溃报告，点开可看概要、崩溃栈、工程摘要和 .ips 全文。中文汉化：灰灰 与 MIAO。配色与排版参考 slog (Ethan Arbuckle, https://github.com/EthanArbuckle/slog)。
+Depiction: https://dcsyhi1998.github.io/depiction/Culprit.html
+SileoDepiction: https://dcsyhi1998.github.io/Sileodepiction/Culprit.json
+Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
+Maintainer: 灰灰 (汉化维护)
+Author: Dcsyhi
+Section: Utilities
+Architecture: iphoneos-arm64e
+Version: 1.0.1-zh
+Installed-Size: 500
+Translator: 灰灰 与 MIAO (=^･ω･^=)
+Filename: debs/jp.dcsyhi.culprit_1.0.1-zh_iphoneos-arm64e.deb
+Size: 157104
+MD5sum: c8f2b763b5741e0bbd5e2a4e57439f56
+SHA1: d74b0316c1f31842838ca2f9f826470429c1b8dd
+SHA256: c5739b6ec5da98b750edd675642d7c79d0202f7cd7329fb41a7afe6588c3ff6d
+
 Package: jp.uzra.muteplay
 Section: Tweaks
 Installed-Size: 168
@@ -988,423 +1396,3 @@ MD5sum: 0ff37f0286c5dbab0d201a371968509b
 SHA1: 8ecef2d25f49faf2400dad025eb6257f074581ce
 SHA256: 4f46edd61ede7099b98279f6c0622e1f51686df57a70a70c96c5fccba9e4f699
 
-Package: com.doimty.daynightswitch
-Name: DayNightSwitch
-Author: doimty
-Description: Add some style to your switches
-Depends: firmware (>= 14.0), mobilesubstrate
-Provides: de.finngaida.daynightswitch
-Conflicts: de.finngaida.daynightswitch
-Replaces: de.finngaida.daynightswitch
-Maintainer: doimty
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.2.4
-Installed-Size: 73
-Filename: debs/com.doimty.daynightswitch_1.2.4_iphoneos-arm64.deb
-Size: 74440
-MD5sum: 48b6d278d982e7a2cac9855598a0482a
-SHA1: 94adc5425464076d834d775192c6210c00ae0009
-SHA256: 6534d39a5e970e573803c6b533006b91c8a5f2b05b661f5a7c311d69eada73b5
-
-Package: com.doimty.daynightswitch
-Name: DayNightSwitch
-Author: doimty
-Description: Add some style to your switches
-Depends: firmware (>= 14.0), mobilesubstrate
-Provides: de.finngaida.daynightswitch
-Conflicts: de.finngaida.daynightswitch
-Replaces: de.finngaida.daynightswitch
-Maintainer: doimty
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.2.4
-Installed-Size: 71
-Filename: debs/com.doimty.daynightswitch_1.2.4_iphoneos-arm64e.deb
-Size: 72652
-MD5sum: da4a60af591b3b17dc37817edefdbd27
-SHA1: 1604151c55e6a092f83bdd38551a566bc96bb63f
-SHA256: f4bc09f4947c2eacd73c678b30cc693dcaff6f21e3430e9b60b7a74457857a61
-
-Package: jp.dcsyhi.culprit
-Name: Culprit
-Depends: firmware (>=15.0)
-Description: 按进程分组查看崩溃报告，点开可看概要、崩溃栈、工程摘要和 .ips 全文。中文汉化：灰灰 与 MIAO。配色与排版参考 slog (Ethan Arbuckle, https://github.com/EthanArbuckle/slog)。
-Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
-Maintainer: 灰灰 (汉化维护)
-Author: Dcsyhi
-Section: Utilities
-Translator: 灰灰 与 MIAO (=^･ω･^=)
-Architecture: iphoneos-arm64e
-Version: 1.0.0-zh
-Installed-Size: 678
-Filename: debs/jp.dcsyhi.culprit_1.0.0-zh_iphoneos-arm64e.deb
-Size: 694112
-MD5sum: fda5a8ed0563d3b4117766fe223b7960
-SHA1: 0019d21138d25c4278137a22253723a7f332d8f3
-SHA256: 221a6f950b69f2c1da37e6a4e0229473d595eed49425676c4eb56007c12f9eee
-
-Package: jp.dcsyhi.culprit
-Name: Culprit
-Depends: firmware (>=15.0)
-Description: 按进程分组查看崩溃报告，点开可看概要、崩溃栈、工程摘要和 .ips 全文。中文汉化：灰灰 与 MIAO。配色与排版参考 slog (Ethan Arbuckle, https://github.com/EthanArbuckle/slog)。
-Depiction: https://dcsyhi1998.github.io/depiction/Culprit.html
-SileoDepiction: https://dcsyhi1998.github.io/Sileodepiction/Culprit.json
-Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
-Maintainer: 灰灰 (汉化维护)
-Author: Dcsyhi
-Section: Utilities
-Translator: 灰灰 与 MIAO (=^･ω･^=)
-Architecture: iphoneos-arm64e
-Version: 1.0.1-zh
-Installed-Size: 154
-Filename: debs/jp.dcsyhi.culprit_1.0.1-zh_iphoneos-arm64e.deb
-Size: 157104
-MD5sum: c8f2b763b5741e0bbd5e2a4e57439f56
-SHA1: d74b0316c1f31842838ca2f9f826470429c1b8dd
-SHA256: c5739b6ec5da98b750edd675642d7c79d0202f7cd7329fb41a7afe6588c3ff6d
-
-Package: com.doimty.urlschemeguard
-Name: URL Scheme Guard Core
-Description: Rule-driven URL scheme interception core. Blocks or redirects URL schemes globally or per calling app, enforced in both the calling app and the Launch Services daemon (lsd). Includes a Settings pane with installed-app and URL-scheme discovery.
-Maintainer: doimty
-Author: doimty
-Section: Tweaks
-Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate, preferenceloader
-Tag: purpose::uikit, compatible::ios14
-Architecture: iphoneos-arm64e
-Version: 0.5.5
-Installed-Size: 144
-Filename: debs/com.doimty.urlschemeguard_0.5.5_iphoneos-arm64e.deb
-Size: 146512
-MD5sum: 0ada586aa93c8834b2680a0f104f1284
-SHA1: 6e9697c2cedcf9ae0dcbdc38b8afcd209b005dc5
-SHA256: afc3cc6a0f19ac2bd3985cddc7d8cff17fc97558d82dd1982286c2a142ac6c6a
-
-Package: com.doimty.urlschemeguard
-Name: URL Scheme Guard Core
-Version: 0.5.6
-Architecture: iphoneos-arm64e
-Description: Rule-driven URL scheme interception core. Blocks or redirects URL schemes globally or per calling app, enforced in both the calling app and the Launch Services daemon (lsd). Includes a Settings pane with installed-app and URL-scheme discovery.
-Maintainer: doimty
-Author: doimty
-Section: Tweaks
-Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate, preferenceloader
-Tag: purpose::uikit, compatible::ios14
-Filename: debs/com.doimty.urlschemeguard_0.5.6_iphoneos-arm64e.deb
-Size: 146816
-MD5sum: 03bf854a6ff3f90aa2d90db8f34d92fa
-SHA1: c303be13e5755cd17599bf2dfbca8b14537e0691
-SHA256: 797511479b113b6ad1e345a713d3aa02ffbb2fc54b0aa963ad351fd5a436fa77
-
-Package: com.doimty.nrmanager
-Name: NR Manager
-Depends: mobilesubstrate, com.opa334.ccsupport
-Description: Select NR bands and view live serving status in Control Center
-Maintainer: doimty
-Author: doimty
-Section: Control Center (Modules)
-Architecture: iphoneos-arm64e
-Version: 1.7.5
-Installed-Size: 269
-Filename: debs/com.doimty.nrmanager_1.7.5_iphoneos-arm64e.deb
-Size: 274710
-MD5sum: 617b20edf8006a62252444fa407bdd5a
-SHA1: 06cada6410345bbf2fb6658afe4c8d2399eca816
-SHA256: 44ef9c90d0230552eea222527348292e51ed2fc23f1119bcfbd58f672e919289
-
-Package: com.doimty.nrmanager
-Name: NR Manager
-Depends: mobilesubstrate, com.opa334.ccsupport
-Description: Select NR bands and view live serving status in Control Center
-Maintainer: doimty
-Author: doimty
-Section: Control Center (Modules)
-Architecture: iphoneos-arm64
-Version: 1.7.5
-Installed-Size: 253
-Filename: debs/com.doimty.nrmanager_1.7.5_iphoneos-arm64.deb
-Size: 258806
-MD5sum: 453d3bb503e9b6fb123c57f7ad49d943
-SHA1: 5687e5c610329e86989a260956f09f3b96ea3cc2
-SHA256: 9327be9c33c4400a224537569fa632bd82ee42d412b89fbe41bc51b2b80455bf
-
-Name: 多陪抢单助手
-Description: 自动轮询多陪抢单大厅，按条件接单推送
-Maintainer: 老大
-Author: 喵之人
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 4
-Filename: debs/com.duopei.grabber_1.0.0_iphoneos-arm64.deb
-Size: 3562
-MD5sum: a62984d40f85b9f2bb978f447bd2a79e
-SHA1: 127cbe1f03e77956e7d01e501193e9a45fbdd471
-SHA256: 5f9f5fea924800bccb3bec3985075d73bb3e55210e782ad8f7e01449443eb3ec
-
-Package: com.doimty.norecentsdock
-Name: NoRecentsDock
-Description: 开启 iPad 风格浮动 Dock、关闭最近应用（Recents）、应用内不呼出 Dock。iOS 15-16 roothide，安装即生效。
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Maintainer: 灰灰
-Author: 灰灰
-Section: Tweaks
-Tag: supports::roothide
-Architecture: iphoneos-arm64e
-Version: 1.3.0
-Installed-Size: 5
-Filename: debs/com.doimty.norecentsdock_1.3.0_iphoneos-arm64e.deb
-Size: 4220
-MD5sum: 53e2749ea09b5c790482743f5422197e
-SHA1: 0b3dbfb1bcc1cc3891f1fe119b1257b0d6c19223
-SHA256: 003820cd73e4e54096eae648f70304f7e29814c8b379f8ae2688e3eb483ccb91
-
-Package: com.doimty.norecentsdock
-Name: NoRecentsDock
-Description: 开启 iPad 风格浮动 Dock、关闭最近应用（Recents）、应用内不呼出 Dock。iOS 15-16 roothide，安装即生效。
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Maintainer: doimty
-Author: doimty
-Section: Tweaks
-Tag: supports::roothide
-Architecture: iphoneos-arm64e
-Version: 1.3.1
-Installed-Size: 5
-Filename: debs/com.doimty.norecentsdock_1.3.1_iphoneos-arm64e.deb
-Size: 4204
-MD5sum: a09f9e291bbafe0aa600db9cab1b50a5
-SHA1: eb108d280972f31482e0f8fbecc20d39bca1ce99
-SHA256: 425f6be65e66b4b3bce50cdd12681e1708cc41ba04f9402c9c819c04d4835cbc
-
-Package: com.imkpatil.homebarsizer
-Name: HomeBarSizer
-Description: 调节 iOS 底部 HomeBar 的宽度、高度和圆角。iOS 15+ roothide 适配版，设置即时生效。
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Maintainer: doimty
-Author: doimty
-Section: Tweaks
-Tag: supports::roothide
-Icon: https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.1.png
-Architecture: iphoneos-arm64e
-Version: 1.3
-Installed-Size: 10
-Filename: debs/com.imkpatil.homebarsizer_1.3_iphoneos-arm64e.deb
-Size: 9678
-MD5sum: 47f679a88f9d2a6b24d4cec4c2ece712
-SHA1: 0e1439fad22c5628e438e947c069f0ea78792175
-SHA256: 6a14aa0ba41b3e92eedbab86781b15500ccf874b0a881d075104d41209f026da
-
-Package: com.imkpatil.homebarsizer
-Name: HomeBarSizer
-Description: 调节 iOS 底部 HomeBar 的宽度、高度和圆角。iOS 15+ roothide 适配版，设置即时生效。
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Maintainer: doimty
-Author: doimty
-Section: Tweaks
-Tag: supports::roothide
-Icon: https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.1.png
-Architecture: iphoneos-arm64e
-Version: 1.3.1
-Installed-Size: 15
-Filename: debs/com.imkpatil.homebarsizer_1.3.1_iphoneos-arm64e.deb
-Size: 15262
-MD5sum: bfae9a0d680caf37badb24faf5384118
-SHA1: b18ce40a1a376d5b23dfed8ed1400f5d5e9c0ef5
-SHA256: 67dcf2684aa6338e92f989fbbaf5c01102a33c8946a612b8267104e64b5123e2
-
-Package: com.imkpatil.homebarsizer
-Name: HomeBarSizer
-Description: 调节 iOS 底部 HomeBar 的宽度、高度和圆角。iOS 15+ roothide 适配版，设置即时生效。
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Maintainer: doimty
-Author: doimty
-Section: Tweaks
-Tag: supports::roothide
-Icon: https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.2.png
-Architecture: iphoneos-arm64e
-Version: 1.3.2
-Installed-Size: 16
-Filename: debs/com.imkpatil.homebarsizer_1.3.2_iphoneos-arm64e.deb
-Size: 15546
-MD5sum: 929aabc982599196659ec335e35240fe
-SHA1: c19de6b778951036a48590bb06e1b5a2f9788898
-SHA256: 0d48c9fc2c403c67a5e16997995380cd0393255e5d65460fc03e390c7320cf4c
-
-Package: com.imkpatil.homebarsizer
-Name: HomeBarSizer
-Description: 调节 iOS 底部 HomeBar 的宽度、高度和圆角。iOS 15+ roothide 适配版，设置即时生效。
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Maintainer: doimty
-Author: doimty
-Section: Tweaks
-Tag: supports::roothide
-Icon: https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.2.png
-Architecture: iphoneos-arm64e
-Version: 1.3.3
-Installed-Size: 16
-Filename: debs/com.imkpatil.homebarsizer_1.3.3_iphoneos-arm64e.deb
-Size: 16000
-MD5sum: 3d1e3b19826ef0b55e3760097e97ad69
-SHA1: 854185e5063659e8ceacfc297d9783e6a8addd8e
-SHA256: d27c26bc3728c924016fda95b2b204a7ea0688b058c3f04f81d0c4eab722d2fd
-
-Package: com.doimty.promotion
-Name: ProMotion 120Hz
-Author: doimty
-Description: Force global 120Hz ProMotion on iPhone 13 Pro+. Bypasses the 80Hz system cap and maintains 120Hz in apps that block tweak injection via a persistent keepalive DisplayLink.
-Depends: mobilesubstrate
-Maintainer: doimty
-Section: Tweaks
-Tag: supports::roothide
-Architecture: iphoneos-arm64e
-Version: 1.0.13
-Installed-Size: 17
-Filename: debs/com.doimty.promotion_1.0.13_iphoneos-arm64e.deb
-Size: 16850
-MD5sum: 2f7ae456d566fc4741a736843f1c4d4d
-SHA1: b4de3e6c0921d1604e910c76820a7933add0ac6b
-SHA256: 7872a0928964eaed12a8ca3b6743580015c894296ba4979ca3b0e4a574499b64
-
-Package: com.doimty.promotion
-Name: ProMotion 120Hz
-Author: doimty
-Description: Force global 120Hz ProMotion on iPhone 13 Pro+. Bypasses the 80Hz system cap and maintains 120Hz in apps that block tweak injection via a persistent keepalive DisplayLink.
-Depends: mobilesubstrate
-Maintainer: doimty
-Section: Tweaks
-Tag: supports::roothide
-Architecture: iphoneos-arm64
-Version: 1.0.13
-Installed-Size: 17
-Filename: debs/com.doimty.promotion_1.0.13_iphoneos-arm64.deb
-Size: 16914
-MD5sum: 48b3d2d60b43936d7d1e93efcf057e48
-SHA1: 6009207dca036e2c8fa7913944fa2127b20f2dc3
-SHA256: a126a981a550dd08e4845df8d6fbb37d5aa5d9e2c68a7ef22785070f9e508986
-
-Package: com.doimty.vedette
-Name: Vedette
-Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
-Conflicts: com.udevs.vedette
-Replaces: com.udevs.vedette
-Maintainer: doimty
-Author: udevs
-Section: Tweaks
-Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Icon: https://doimty.github.io/icons/com.doimty.vedette.png
-Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
-Architecture: iphoneos-arm64
-Version: 1.1.12-3
-Installed-Size: 976
-Filename: debs/com.doimty.vedette_1.1.12-3_iphoneos-arm64.deb
-Size: 142600
-MD5sum: e8bf9c465efafdf60a2be386d45e4aa2
-SHA1: 5f7d39ffa048c80216a307ad48baa7cb031002af
-SHA256: 5432717afbf0cf3a50111ed93ea15a10d4a0ecce96b75e0c594a2e28577e1c09
-
-Package: com.doimty.vedette
-Name: Vedette
-Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
-Conflicts: com.udevs.vedette
-Replaces: com.udevs.vedette
-Maintainer: doimty
-Author: udevs
-Section: Tweaks
-Depends: firmware (>= 15.0), roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Icon: https://doimty.github.io/icons/com.doimty.vedette.png
-Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
-Architecture: iphoneos-arm64e
-Version: 1.1.12-3
-Installed-Size: 976
-Filename: debs/com.doimty.vedette_1.1.12-3_iphoneos-arm64e.deb
-Size: 139760
-MD5sum: c22ca54ba4ebc925b772d800f95ec338
-SHA1: b5f67c0282013cae7c8adb4baed05c2e45dfd32d
-SHA256: 7260ea721e499d8ef3d8557b3935a02da91eef081b4b57e4d80b8a152a8cc78e
-
-Package: com.ps.letmeblock
-Name: LetMeBlock
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.libsandy (>= 1.1.6-4)
-Description: Make mDNSResponder care more about /etc/hosts
-Maintainer: PoomSmart
-Author: PoomSmart
-Section: Tweaks
-Depiction: https://doimty.github.io/depictions/com.ps.letmeblock/
-Architecture: iphoneos-arm64e
-Version: 1.3.0-2
-Installed-Size: 64
-Filename: debs/com.ps.letmeblock_1.3.0-2_iphoneos-arm64e.deb
-Size: 4908
-MD5sum: cbdfcb8ac824448d85292e2cffee3da0
-SHA1: 50251453526062313172247aedeb572d71e3e18d
-SHA256: 8c52142a542fc5bdf8d9e4f8a92732f9198ad041dc28e5294bc0fa8df1363dc9
-
-Package: com.doimty.promotion
-Name: ProMotion 120Hz
-Author: doimty
-Description: High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Maintainer: doimty
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.0.14-1
-Installed-Size: 108
-Tag: supports::roothide
-Depiction: https://doimty.github.io/depictions/com.doimty.promotion/
-Filename: debs/com.doimty.promotion_1.0.14-1_iphoneos-arm64e.deb
-Size: 19460
-MD5sum: 4104e1df96fd208defcebf7a065634eb
-SHA1: 6753b547c235583176256c2bdcd0d2c4e21b09df
-SHA256: b96bfa462178b034897400cec04cdbd334a27453f8582f6738de0dc6e7c741ff
-
-Package: com.doimty.promotion
-Name: ProMotion 120Hz
-Author: doimty
-Description: High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Maintainer: doimty
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.0.14-1
-Installed-Size: 236
-Depiction: https://doimty.github.io/depictions/com.doimty.promotion/
-Filename: debs/com.doimty.promotion_1.0.14-1_iphoneos-arm64.deb
-Size: 27900
-MD5sum: f1785e4cd8c3cb23b9bd2930c3163901
-SHA1: d7938042544ac91bc6cf5140f3cb671cf11c873e
-SHA256: 60ba8d1f216b55f4e7ae9592ec3f5faa62a0cf40fb445696d083fd42876f5b63
-
-Package: com.doimty.fiona
-Name: Fiona
-Author: doimty
-Maintainer: doimty
-Description: 锁屏时保持 WiFi 连接。无开关，安装即生效；
-Depends: firmware (>= 15.0)
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 0.2
-Installed-Size: 168
-Filename: debs/com.doimty.fiona_0.2_iphoneos-arm64.deb
-Size: 2964
-MD5sum: 71e159d9a3fba32ac70642a1dbf5ad58
-SHA1: 5dda7589eca88d8b8feef0516efe8826b7ecda65
-SHA256: 792c871b02c902e8e7a6255f3366f101f75e936bd982c947bb4b26e0be4416f9
-
-Package: com.doimty.fiona
-Name: Fiona
-Author: doimty
-Maintainer: doimty
-Description: 锁屏时保持 WiFi 连接。无开关，安装即生效；
-Depends: firmware (>= 15.0)
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 0.2
-Installed-Size: 168
-Filename: debs/com.doimty.fiona_0.2_iphoneos-arm64e.deb
-Size: 2898
-MD5sum: 565eaf9b65d83989ffb9fadfc75e2af9
-SHA1: bd7a960d3e1e775624e95344e1049c7b0eba0c77
-SHA256: afd456d7672c7f40be99dd5c729a8fcaaeaf8f0a3a42d1d2c9b44b7a999235b7

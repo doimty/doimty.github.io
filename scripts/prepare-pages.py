@@ -70,7 +70,7 @@ def stage(root, output, lookup=github_public):
             continue
         elif top == '.github' and rel.parent.as_posix() == '.github/workflows' and path.suffix == '.yml':
             continue
-        elif top == 'scripts' and len(rel.parts) == 2 and path.suffix in ('.py', '.sh'):
+        elif top == 'scripts' and len(rel.parts) == 2 and path.suffix in ('.py', '.sh', '.json'):
             continue
         elif top == 'debs' and len(rel.parts) == 2 and path.suffix == '.deb':
             site = True

@@ -1,0 +1,8 @@
+{
+  "_note": "Rebuild-stable curated fields. update-repo.py applies these to each entry after reading the deb control. Value null removes the field.",
+  "debs/com.doimty.promotion_1.0.14-1_iphoneos-arm64.deb": {"Depiction": "https://doimty.github.io/depictions/com.doimty.promotion/"},
+  "debs/com.doimty.promotion_1.0.14-1_iphoneos-arm64e.deb": {"Depiction": "https://doimty.github.io/depictions/com.doimty.promotion/"},
+  "debs/com.ps.letmeblock_1.3.0-2_iphoneos-arm64e.deb": {"Depiction": "https://doimty.github.io/depictions/com.ps.letmeblock/", "SileoDepiction": null},
+  "debs/com.imkpatil.homebarsizer_1.2_iphoneos-arm64e.deb": {"Icon": "https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.1.png"},
+  "debs/com.imkpatil.homebarsizer_1.3_iphoneos-arm64e.deb": {"Icon": "https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.1.png"}
+}
