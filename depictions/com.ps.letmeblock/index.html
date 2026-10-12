@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LetMeBlock · 原生 RootHide</title><style>body{font:17px/1.7 -apple-system,BlinkMacSystemFont,sans-serif;max-width:680px;margin:32px auto;padding:0 22px;color:#252532;background:#f5f4fa}section{background:white;border-radius:20px;padding:20px;margin:18px 0}h1{font-size:30px;line-height:1.3}h2{font-size:20px;margin-top:0}a{color:#5b54e8}small{color:#666674}code{overflow-wrap:anywhere}</style></head><body>
+<h1>LetMeBlock <small>1.3.0-2</small></h1><p>PoomSmart 原作，由 doimty 维护的原生 RootHide 重编发行。</p>
+<section><h2>用途</h2><p>帮助 mDNSResponder 读取托管 Hosts 规则。本包不附带广告名单、不提供 VPN、不定时下载或逐域名查询 DNS。可与静域 QuietHosts 等 Hosts 管理工具配合使用。</p></section>
+<section><h2>适用环境</h2><ul><li>iOS 15 或更高版本，原生 RootHide，<code>iphoneos-arm64e</code>。</li><li>需要 MobileSubstrate 与对应环境的官方 libSandy。本包不包含或重编 libSandy。</li><li>这份包不是普通 rootless 的 <code>iphoneos-arm64</code> 版本；rootless 用户应使用适配自己环境的依赖包。</li></ul></section>
+<section><h2>本次更新</h2><p>版本改为纯数字正式编号，升级顺序高于原 1.3.0 和 1.3.0-1+native1 测试版。规范安装归档的 root 属主，原有 hook 与 Hosts 读取行为保持不变，不通过转换兼容层安装。</p><p>升级或移除沿用原包的 DNS 服务重启流程，可能短暂影响连接；若正在使用 Hosts 管理器，请先按管理器流程暂停并恢复原始文件。</p></section>
+<section><h2>下载与开源</h2><p><a href="../../debs/com.ps.letmeblock_1.3.0-2_iphoneos-arm64e.deb">下载 RootHide 安装包</a> · <a href="../../sources/letmeblock-1.3.0-2.tar.gz">本版源码归档</a></p><p><a href="https://github.com/PoomSmart/LetMeBlock">上游 LetMeBlock</a> · <a href="https://github.com/doimty/LetMeBlock/tree/release/letmeblock-1.3.0-2">原生重编源码</a></p><p>MIT 许可；保留 PoomSmart 版权及作者署名。软件源收取费用：无。本版是重编发行，不冒充上游新版本。</p></section>
+</body></html>
