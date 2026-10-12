@@ -1377,3 +1377,34 @@ MD5sum: f1785e4cd8c3cb23b9bd2930c3163901
 SHA1: d7938042544ac91bc6cf5140f3cb671cf11c873e
 SHA256: 60ba8d1f216b55f4e7ae9592ec3f5faa62a0cf40fb445696d083fd42876f5b63
 
+Package: com.doimty.fiona
+Name: Fiona
+Author: doimty
+Maintainer: doimty
+Description: 锁屏时保持 WiFi 连接。无开关，安装即生效；
+Depends: firmware (>= 15.0)
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.2
+Installed-Size: 168
+Filename: debs/com.doimty.fiona_0.2_iphoneos-arm64.deb
+Size: 2964
+MD5sum: 71e159d9a3fba32ac70642a1dbf5ad58
+SHA1: 5dda7589eca88d8b8feef0516efe8826b7ecda65
+SHA256: 792c871b02c902e8e7a6255f3366f101f75e936bd982c947bb4b26e0be4416f9
+
+Package: com.doimty.fiona
+Name: Fiona
+Author: doimty
+Maintainer: doimty
+Description: 锁屏时保持 WiFi 连接。无开关，安装即生效；
+Depends: firmware (>= 15.0)
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.2
+Installed-Size: 168
+Filename: debs/com.doimty.fiona_0.2_iphoneos-arm64e.deb
+Size: 2898
+MD5sum: 565eaf9b65d83989ffb9fadfc75e2af9
+SHA1: bd7a960d3e1e775624e95344e1049c7b0eba0c77
+SHA256: afd456d7672c7f40be99dd5c729a8fcaaeaf8f0a3a42d1d2c9b44b7a999235b7
