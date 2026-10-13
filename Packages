@@ -1149,6 +1149,38 @@ MD5sum: 48550038ccc705c5df8b853bb400e6d0
 SHA1: 832471231a5f40c0399b2c636799eeaef0963b0b
 SHA256: 9834b0761e1f61db432552ab470fedae34cadceba0cc57121dd548ba1cf94442
 
+Package: com.root.noicisland
+Name: NoIsland
+Description: 富佬装穷专用插件，假装自己是没岛的穷逼15系统。ps：仅供16+富佬用，15的穷逼别用，否则用了穷上加穷。
+Maintainer: root
+Author: root
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.15
+Installed-Size: 172
+Filename: debs/com.root.noicisland_0.15_iphoneos-arm64.deb
+Size: 9214
+MD5sum: 2b638647f4fb12b95ee3a3037d428501
+SHA1: 54187537d49afc3ab1e2b8dc94960379ff9864aa
+SHA256: 8ad74338b9798c0d4215ef5c81154b3f89c4477978f76504945886f850af3ef6
+
+Package: com.root.noicisland
+Name: NoIsland
+Description: 富佬装穷专用插件，假装自己是没岛的穷逼15系统。ps：仅供16+富佬用，15的穷逼别用，否则用了穷上加穷。
+Maintainer: root
+Author: root
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.15
+Installed-Size: 76
+Filename: debs/com.root.noicisland_0.15_iphoneos-arm64e.deb
+Size: 6912
+MD5sum: f9440495cdca5390917a1c960b02eafd
+SHA1: 0df14ccafdd369cbd14d526d64c0696438939dcd
+SHA256: cf6316e9b7ecbc9ca79c127dec833022837af22f551c66a774e67c27c49adbef
+
 Package: com.sop.settingsrevamp
 Name: SettingsRevamp
 Description: Customize the ios settings page
