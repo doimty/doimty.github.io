@@ -4,5 +4,6 @@
   "debs/com.doimty.promotion_1.0.14-1_iphoneos-arm64e.deb": {"Depiction": "https://doimty.github.io/depictions/com.doimty.promotion/"},
   "debs/com.ps.letmeblock_1.3.0-2_iphoneos-arm64e.deb": {"Depiction": "https://doimty.github.io/depictions/com.ps.letmeblock/", "SileoDepiction": null},
   "debs/com.imkpatil.homebarsizer_1.2_iphoneos-arm64e.deb": {"Icon": "https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.1.png"},
-  "debs/com.imkpatil.homebarsizer_1.3_iphoneos-arm64e.deb": {"Icon": "https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.1.png"}
+  "debs/com.imkpatil.homebarsizer_1.3_iphoneos-arm64e.deb": {"Icon": "https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.1.png"},
+  "debs/com.tsangbaby.notchhome_0.5.0_iphoneos-arm64e.deb": {"Description": "返回桌面上刘海（假岛）动画。支持iOS15+，仅限穷逼专用，富人用了后果自负"}
 }

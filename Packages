@@ -1238,6 +1238,24 @@ MD5sum: 90979fa9b0632642ea44197656b4c4aa
 SHA1: 7b6cc2423aeeecf3ded08831d32d219192263bf5
 SHA256: 3832b50328719159c474f931e02e9a4135662db9deef4bf9c2dd487ea3ee7248
 
+Package: com.tsangbaby.notchhome
+Name: NotchHome
+Description: 返回桌面上刘海（假岛）动画。支持iOS15+，仅限穷逼专用，富人用了后果自负
+Maintainer: Tsangbaby
+Author: Tsangbaby
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.notchhome.tweak
+Replaces: com.notchhome.tweak
+Architecture: iphoneos-arm64e
+Version: 0.5.0
+Installed-Size: 296
+Filename: debs/com.tsangbaby.notchhome_0.5.0_iphoneos-arm64e.deb
+Size: 43202
+MD5sum: 843f3057b7c5120a962fe30599a911a7
+SHA1: 1f3dfe08c8de4343c42aaf14f6be2b2f7273aeb4
+SHA256: 0bf4ab3da415d9fdde638bb1b516dfdad832974c2db9873ae3a08fd23d0624d2
+
 Package: com.yourepo.ibreak.dolbysoundeffect
 Section: System
 Maintainer: iBreak <ibreak2019@qq.com>
