@@ -1250,6 +1250,7 @@ Replaces: com.notchhome.tweak
 Architecture: iphoneos-arm64e
 Version: 0.5.0
 Installed-Size: 296
+Depiction: https://doimty.github.io/depictions/com.tsangbaby.notchhome/
 Filename: debs/com.tsangbaby.notchhome_0.5.0_iphoneos-arm64e.deb
 Size: 43202
 MD5sum: 843f3057b7c5120a962fe30599a911a7
