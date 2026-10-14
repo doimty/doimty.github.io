@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<title>Vedette 1.1.12 · Doimty Repo</title>
-<meta name="description" content="按应用与守护进程独立管理 CPU 限制和 nice 调度优先级，支持 rootless 与 roothide。">
+<title>Vedette 1.1.13-4 · Doimty Repo</title>
+<meta name="description" content="分别设置 App、守护进程和 App 扩展的 CPU 用量与运行优先级，支持 rootless 与 RootHide。">
 <style>
 :root{color-scheme:light dark;--bg:#f4f5f7;--card:#fff;--fg:#18212b;--muted:#606b78;--accent:#286852;--line:#dde2e7}
 @media(prefers-color-scheme:dark){:root{--bg:#10151a;--card:#1b2229;--fg:#e8edf3;--muted:#a2aebb;--accent:#87d0b0;--line:#35414a}}
@@ -13,30 +13,30 @@
 </head>
 <body><main>
 <a href="../../">Doimty's Repo</a>
-<header><img src="../../icons/com.doimty.vedette.png" alt="Vedette 图标"><div><h1>Vedette</h1><small>1.1.12-3 · iOS 15 及以上</small></div></header>
-<p>按应用与守护进程独立管理 <strong>CPU 限制</strong>和 <strong>nice 调度优先级</strong>，保留原生设置界面。</p>
-<p class="muted" lang="en">Per-app and per-daemon CPU limits with independent nice scheduling priority controls.</p>
-<section><h2>两种控制，各自独立</h2><ul>
-<li><strong>CPU：</strong>按目标配置 CPU 限额与超限处理方式，支持限速或终止。</li>
-<li><strong>nice：</strong>独立开关与 −20～20 数值选择。数值越小，调度优先级越高；默认不干预，可以只调 nice 而不启用 CPU 限制。</li>
-<li><strong>恢复：</strong>首次记录 nice 原值，关闭或删除规则时尝试恢复；失败保留记录，外部修改冲突不强行覆盖。</li>
-<li><strong>反馈：</strong>显示最近执行回执，支持手动检查／重试。配置已启用不等于实时内核状态。</li>
+<header><img src="../../icons/com.doimty.vedette.png" alt="Vedette 图标"><div><h1>Vedette</h1><small>1.1.13-4 · iOS 15 及以上</small></div></header>
+<p>分别设置每个 <strong>App、守护进程和 App 扩展</strong>的 <strong>CPU 用量</strong>与 <strong>运行优先级</strong>，在系统设置里就能调整。</p>
+<p class="muted" lang="en">Separate CPU limits and scheduling priority settings for apps, daemons and app extensions.</p>
+<section><h2>两种设置，可以分开用</h2><ul>
+<li><strong>CPU 用量：</strong>设置允许使用多少 CPU，超出后可以限制速度或结束进程。</li>
+<li><strong>运行优先级（nice）：</strong>可选 −20～20，数值越小，优先级越高。默认不调整，也可以只改优先级，不打开 CPU 限制。</li>
+<li><strong>关闭后恢复：</strong>会先记住调整前的优先级，关闭或删除设置时尝试还原；如果被别的工具改过，不会强行改回去。</li>
+<li><strong>查看结果：</strong>能看到上次检查的时间和结果，也可以手动重试。页面显示的是上次检查结果，不是实时读数。</li>
 </ul></section>
-<section><h2>本次更新</h2><ul>
-<li>正式版 1.1.12-3，版本顺序高于此前的 nice 测试版与初次正式构建。</li>
-<li>卸载与安装收尾改为尽力恢复：nice 恢复失败只提示，不再阻塞包管理。</li>
-<li>放开守护进程列表的 SpringBoard 入口，只匹配系统完整路径；同名程序不会套用该规则。默认关闭，关键进程确认保留。</li>
-<li>同时提供 rootless 与 roothide 两种安装包，不可混装。</li>
-<li>保留 nice2 的工具签名权限修复、CPU／nice 执行逻辑及界面。</li>
-<li>更新包描述与本站介绍页，下架源内旧 Vedette 版本。</li>
+<section><h2>1.1.13-4 更新了什么</h2><ul>
+<li>修复运行优先级设置可能整体失效的问题：旧版本留下的数据读不出来时，优先级会保存不上，所有目标都不生效，重启也无法恢复。本版本会自动清理这类旧数据并恢复正常。</li>
+<li>修复点进守护进程列表、返回后再点进去会闪退的问题，App 扩展列表也作了同样的调整。</li>
+<li>新增 App 扩展设置，可以单独限制扩展的 CPU 用量和调整运行优先级，也可以跟着所属 App 的设置走。</li>
+<li>只打开运行优先级等单项设置的项目，也会排到列表前面，方便查找和修改。</li>
+<li>再次打开列表时减少重复加载；刷新没成功时保留上次的列表，还可以手动重试。</li>
+<li>运行优先级暂时没设置成功时，会再试几次；页面会显示上次检查的时间和结果。</li>
+<li>调整了页面样式和提示文字。切换某项设置的“跟随 App”，不会顺手清掉其他设置。</li>
 </ul></section>
 <section><h2>下载与兼容性</h2><p>优先在包管理器中刷新本源后安装，由客户端按环境选择对应架构。</p>
 <div class="downloads">
-<a class="button" href="../../debs/com.doimty.vedette_1.1.12-3_iphoneos-arm64.deb">Rootless · iphoneos-arm64</a>
-<a class="button" href="../../debs/com.doimty.vedette_1.1.12-3_iphoneos-arm64e.deb">RootHide · iphoneos-arm64e</a>
+<a class="button" href="../../debs/com.doimty.vedette_1.1.13-4_iphoneos-arm64.deb">Rootless · iphoneos-arm64</a>
+<a class="button" href="../../debs/com.doimty.vedette_1.1.13-4_iphoneos-arm64e.deb">RootHide · iphoneos-arm64e</a>
 </div>
 <p class="muted">依赖 PreferenceLoader、Substrate 兼容注入环境及 AltList；roothide 包另依赖 RootHide。</p></section>
-<section><h2>使用边界</h2><p>nice 不是 CPU 百分比上限，也不是 Jetsam 保后台设置。过低 CPU 限额或激进优先级可能增加延迟；不承诺耗电或流畅度收益。不要同时使用其他工具反复改写相同目标的 nice。</p><p>卸载前会尽力把目标交还系统；即使这一步失败也只提示，不阻塞卸载。内核 nice 值随进程退出或重启自然失效。原值日志会保留，可在需要时检查。原 CPU 批量恢复的既有边界没有在本次版本中扩大保证。</p></section>
-<footer>原作者：udevs · 维护与功能扩展：doimty<br>
-代码按 GPLv3 发布，具体声明见源码。<a href="https://github.com/doimty/vedette/tree/788f43bcb17a2c3890ed8bdeea3f1a97660e13c7">源码与构建说明</a> · <a href="../../sources/vedette-1.1.12-3.tar.gz">此版本对应源码归档</a></footer>
+<section><h2>使用时请注意</h2><p>运行优先级不等于 CPU 用量上限，也不等于保后台。CPU 限制太低或优先级调得太激进，可能反而卡顿；不要让多个工具反复修改同一目标。</p><p>内存上限和后台清理优先级的选项目前只保存设置，暂时不会改变系统行为。</p><p>卸载前会尽量恢复调整前的运行优先级，恢复失败只提示，不会挡住卸载；进程退出或重启后，这次调整也会失效。恢复记录会保留，必要时可以查看。</p></section>
+<footer>原作者：udevs · 维护与功能扩展：doimty<br>许可证：GPLv3。</footer>
 </main></body></html>

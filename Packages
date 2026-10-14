@@ -870,6 +870,46 @@ MD5sum: c22ca54ba4ebc925b772d800f95ec338
 SHA1: b5f67c0282013cae7c8adb4baed05c2e45dfd32d
 SHA256: 7260ea721e499d8ef3d8557b3935a02da91eef081b4b57e4d80b8a152a8cc78e
 
+Package: com.doimty.vedette
+Name: Vedette
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Maintainer: doimty
+Author: udevs
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Architecture: iphoneos-arm64
+Version: 1.1.13-4
+Installed-Size: 1188
+Filename: debs/com.doimty.vedette_1.1.13-4_iphoneos-arm64.deb
+Size: 195700
+MD5sum: e44387f87de05407b69c7c14ba11fcd5
+SHA1: a8d66a9af1b20710b02b0fcb21b870529bbf8141
+SHA256: 81f27ec6cfcea69bc9aaae523787d58cb8865dc12706da64b9507b2ce8393fd2
+
+Package: com.doimty.vedette
+Name: Vedette
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Maintainer: doimty
+Author: udevs
+Section: Tweaks
+Depends: firmware (>= 15.0), roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Architecture: iphoneos-arm64e
+Version: 1.1.13-4
+Installed-Size: 1188
+Filename: debs/com.doimty.vedette_1.1.13-4_iphoneos-arm64e.deb
+Size: 192824
+MD5sum: 912f4300661ec23ebea260e64ed50c88
+SHA1: 1294c9c8dac8a84ac02a26f7572b3c202da131c1
+SHA256: a8a737c0d580a9d8a46d0d589a4dd642b4facb9faafd0855b356bfc3341d6dac
+
 Package: com.eliassfeir.smartnetwork
 Section: Tweaks
 Installed-Size: 1272
