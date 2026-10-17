@@ -1329,6 +1329,23 @@ MD5sum: 843f3057b7c5120a962fe30599a911a7
 SHA1: 1f3dfe08c8de4343c42aaf14f6be2b2f7273aeb4
 SHA256: 0bf4ab3da415d9fdde638bb1b516dfdad832974c2db9873ae3a08fd23d0624d2
 
+Package: com.xhwy.cellcorner
+Name: 微信圆角
+Description: 微信页面圆角，免费。可调整聊天、通讯录等页面的卡片、头像与输入框圆角。
+Maintainer: 学海无涯
+Author: 剑来
+Section: 微信增强
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.2.10
+Installed-Size: 544
+Tag: supports::roothide
+Filename: debs/com.xhwy.cellcorner_1.2.10_iphoneos-arm64e.deb
+Size: 149888
+MD5sum: 0b6469bad50643d343e24f8fe87f4e85
+SHA1: 7f650f2e399257f2547b15cc51cf3b6d183c1797
+SHA256: 5c180d54bb4b0cae97da42c8714cd08ef080a0d3c65ea0ac5c736481c456bb6c
+
 Package: com.yourepo.ibreak.dolbysoundeffect
 Section: System
 Maintainer: iBreak <ibreak2019@qq.com>
