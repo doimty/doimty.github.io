@@ -6,5 +6,5 @@
   "debs/com.imkpatil.homebarsizer_1.2_iphoneos-arm64e.deb": {"Icon": "https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.1.png"},
   "debs/com.imkpatil.homebarsizer_1.3_iphoneos-arm64e.deb": {"Icon": "https://doimty.github.io/icons/com.imkpatil.homebarsizer-1.3.1.png"},
   "debs/com.tsangbaby.notchhome_0.5.0_iphoneos-arm64e.deb": {"Depiction": "https://doimty.github.io/depictions/com.tsangbaby.notchhome/", "Description": "返回桌面上刘海（假岛）动画。支持iOS15+，仅限穷逼专用，富人用了后果自负"},
-  "debs/com.xhwy.cellcorner_1.2.10_iphoneos-arm64e.deb": {"Name": "微信圆角", "Description": "把微信的边角磨顺眼。聊天、通讯录、发现页的卡片、头像与输入框均可单独调节，免费。", "Tag": "supports::roothide"}
+  "debs/com.xhwy.cellcorner_1.2.10_iphoneos-arm64e.deb": {"Name": "微信圆角", "Description": "微信页面圆角，免费。", "Tag": "supports::roothide"}
 }

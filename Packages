@@ -1331,7 +1331,7 @@ SHA256: 0bf4ab3da415d9fdde638bb1b516dfdad832974c2db9873ae3a08fd23d0624d2
 
 Package: com.xhwy.cellcorner
 Name: 微信圆角
-Description: 把微信的边角磨顺眼。聊天、通讯录、发现页的卡片、头像与输入框均可单独调节，免费。
+Description: 微信页面圆角，免费。
 Maintainer: 学海无涯
 Author: 剑来
 Section: 微信增强
