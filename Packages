@@ -513,6 +513,24 @@ SHA256: 70ff481529a058f417a516f984aca204ddb37afefd9778c4912edfba1dbf34b4
 Package: com.doimty.fixrepairsystempower
 Name: Fix Repair System Power
 Author: doimty
+Description: 改进 iOS 16–17 兼容性，调整部分系统行为；仅限 RootHide，CPU 防降频问题尚未修复。
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 0.0.8-2
+Installed-Size: 76
+Depiction: https://doimty.github.io/depictions/fixrepairsystempower/
+Filename: debs/com.doimty.fixrepairsystempower_0.0.8-2_iphoneos-arm64e.deb
+Size: 6590
+MD5sum: 7a479294ceecdf13982e337fabaab998
+SHA1: 59aa0497fc3d67b8d4930a03c3cd0ee7b85853cd
+SHA256: 0b66bb3a62d3f907f9e1f5b44d1290f054c2231385d6044f15de2b13875809ef
+
+Package: com.doimty.fixrepairsystempower
+Name: Fix Repair System Power
+Author: doimty
 Description: CPU Battery Saver Battery Connected State Not Change Remove Monitored Regions Don't Use Background Location Services No Update WiFi State Remove Pretending To Search In Telephony Manager No Has Results From Wifi Scan Disable Wifi Charger Queue Has Cellular Telephony Private Location Apps Not Using Location With Details Remove Animations Remove Animations Fake Service If Unnecessary Don't Scan For Updates Remove Check Time Zone Time Zone (Fixed) AdBlock - Block Some iAds No Automatic Sync Hidden iAds Device
 Depends: mobilesubstrate
 Maintainer: doimty
