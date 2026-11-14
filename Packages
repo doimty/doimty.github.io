@@ -1596,6 +1596,24 @@ SHA256: 4f46edd61ede7099b98279f6c0622e1f51686df57a70a70c96c5fccba9e4f699
 
 Package: re.frida.server
 Name: Frida
+Version: 16.1.4
+Priority: optional
+Installed-Size: 60104
+Architecture: iphoneos-arm64e
+Description: Observe and reprogram running programs.
+Homepage: https://frida.re/
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Author: Frida Developers <oleavr@nowsecure.com>
+Section: Development
+Conflicts: re.frida.server64
+Filename: debs/re.frida.server_16.1.4_iphoneos-arm64e.deb
+Size: 17921048
+MD5sum: df0bde2b0f5effaf281f6b4bb7a2d080
+SHA1: 78e64d873887c4ee9a70151f77238b724bd94da0
+SHA256: 17df02e20574cc55d26b4226cd95e71018b153eb8f2b9219f4b1b23e2c83f46d
+
+Package: re.frida.server
+Name: Frida
 Version: 17.25.1
 Priority: optional
 Installed-Size: 78466
